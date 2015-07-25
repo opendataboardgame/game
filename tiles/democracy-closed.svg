@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1">
+  <use xlink:href="defs.svg#hexagon" fill="#F9BC26" />
+  <use xlink:href="defs.svg#democracy" transform="translate(58,75.5)" fill="white" />
+</svg>

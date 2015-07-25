@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1">
+  <use xlink:href="defs.svg#hexagon" fill="#EF3AAB" />
+  <use xlink:href="defs.svg#product" transform="translate(58,75.5)" fill="white" />
+</svg>
