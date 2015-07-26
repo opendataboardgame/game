@@ -25,6 +25,7 @@ Squib::Deck.new(cards: 6, width: 1050, height: 675, layout: 'layout.yml') do
   svg file: tiles['impact'].map { |i| i == 'Economic' ? "world-board/Economic.svg" : "world-board/Economic-light.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_1_'
+  save_sheet prefix: 'tools_1_sheet_', columns: 3, rows: 7, margin: 150, gap: 75
 end
 
 Squib::Deck.new(cards: 21, width: 1050, height: 675, layout: 'layout.yml') do
@@ -58,6 +59,7 @@ Squib::Deck.new(cards: 21, width: 1050, height: 675, layout: 'layout.yml') do
   svg file: economic.map { |i| i ? "world-board/Economic.svg" : "world-board/Economic-light.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_2_'
+  save_sheet prefix: 'tools_2_sheet_', columns: 3, rows: 7, margin: 150, gap: 75
 end
 
 Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
@@ -95,6 +97,7 @@ Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
   svg file: economic.map { |i| i ? "world-board/Economic.svg" : "world-board/Economic-light.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_3_'
+  save_sheet prefix: 'tools_3_sheet_', columns: 3, rows: 7, margin: 150, gap: 75
 end
 
 Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
@@ -132,6 +135,8 @@ Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
   svg file: economic.map { |i| i ? "world-board/Economic.svg" : "world-board/Economic-light.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_4_'
+  save_sheet prefix: 'tools_4_sheet_', columns: 3, rows: 7, margin: 150, gap: 75
+  hand file: 'tools.png', range: 2..3, angle_range: (Math::PI / -4.0)..0, trim: 37.5, trim_radius: 25, fill_color: '#0000'
 end
 
 Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
@@ -169,4 +174,5 @@ Squib::Deck.new(cards: 18, width: 1050, height: 675, layout: 'layout.yml') do
   svg file: economic.map { |i| i ? "world-board/Economic.svg" : "world-board/Economic-light.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_5_'
+  save_sheet prefix: 'tools_5_sheet_', columns: 3, rows: 7, margin: 150, gap: 75
 end

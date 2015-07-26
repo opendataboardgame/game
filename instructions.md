@@ -156,6 +156,8 @@ The game ends in three scenarios:
 
 Ellen has the following cards in her hand:
 
+<img src="instructions/hand.png" width="525" />
+
 The data infrastructure looks like this:
 
 The world score looks like this:
