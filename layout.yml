@@ -1,12 +1,29 @@
 AllText:
-  font: Helvetica Neue,Helvetica,Arial,Sans 24
+  font: Helvetica Neue,Helvetica,Arial,Sans 72
   align: center
   color: '#333333'
 
 EventText:
   extends: AllText
-  x: 20
-  y: 40
-  width: 296
-  height: 100
+  x: 90
+  y: 60
+  width: 828
+  height: 300
   valign: middle
+
+EventEffect:
+  extends: AllText
+  y: 390
+  align: left
+
+EventEffectIcon:
+  extends: EventEffect
+  x: 300
+  width: 216
+  height: 216
+
+EventEffectText:
+  extends: EventEffect
+  font_size: 144
+  font_weight: 900
+  x: 510
