@@ -10,14 +10,15 @@ Data looks like this:
 
 There are six kinds of data. Each is represented by a different colour tile.
 
-Tile | Data | Impact
---|-----|------
-<img src="tiles/product-closed.png" height="48"> <img src="tiles/product-open.png" height="48"> | Product | Economic
-<img src="tiles/transport-closed.png" height="48"> <img src="tiles/transport-open.png" height="48"> | Transport | Economic
-<img src="tiles/geography-closed.png" height="48"> <img src="tiles/geography-open.png" height="48"> | Geography | Environmental
-<img src="tiles/weather-closed.png" height="48"> <img src="tiles/weather-open.png" height="48"> | Weather | Environmental
-<img src="tiles/democracy-closed.png" height="48"> <img src="tiles/democracy-open.png" height="48"> | Democracy | Social
-<img src="tiles/health-closed.png" height="48"> <img src="tiles/health-open.png" height="48"> | Health | Social
+<table>
+<tr><th>Tiles<th>Data<th>Impact
+<tr><td><img src="tiles/product-closed.png" height="48"> <img src="tiles/product-open.png" height="48"><td>Product<td>Economic
+<tr><td><img src="tiles/transport-closed.png" height="48"> <img src="tiles/transport-open.png" height="48"><td>Transport<td>Economic
+<tr><td><img src="tiles/geography-closed.png" height="48"> <img src="tiles/geography-open.png" height="48"><td>Geography<td>Environmental
+<tr><td><img src="tiles/weather-closed.png" height="48"> <img src="tiles/weather-open.png" height="48"><td>Weather<td>Environmental
+<tr><td><img src="tiles/democracy-closed.png" height="48"> <img src="tiles/democracy-open.png" height="48"><td>Democracy<td>Social
+<tr><td><img src="tiles/health-closed.png" height="48"> <img src="tiles/health-open.png" height="48"><td>Health<td>Social
+</table>
 
 Each tile represents a dataset. For example, a Transport tile might represent data about bus timetables or the locations of rail stations.
 
@@ -43,7 +44,7 @@ Counters on the tiles indicate who is using the data in the **data infrastructur
 
 You can build tools by linking different kinds of data together. Each tool that you can build is represented by a card. For example:
 
-![tool card](instructions/tool-card.png)
+<img src="instructions/tool-card.png" width="525">
 
 This tool uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
 
@@ -66,7 +67,7 @@ Building tools helps the world. When you build a new tool, you may have a social
 
 For example, if you build the tool:
 
-![tool card](instructions/tool-card.png)
+<img src="instructions/tool-card.png" width="525">
 
 you can choose to either have an economic or an environmental impact. These icons are highlighted on the card.
 
@@ -74,7 +75,7 @@ you can choose to either have an economic or an environmental impact. These icon
 
 Each turn, something happens in the world. These are represented by **event cards**, which look like:
 
-![event card](instructions/event-card.png)
+<img src="instructions/event-card.png" width="525">
 
 Events alter the world scores. They can add to a world score or (more frequently) reduce the score.
 
