@@ -45,10 +45,63 @@ ToolImpactIcon3:
   extends: ToolImpactIcon
   y: 450
 
-ToolIcon:
+ToolIconBase:
   extends: AllText
-  x: 498
-  y: 229
   width: 216
   height: 216
+  y: 229
   valign: middle
+
+ToolIcon:
+  extends: ToolIconBase
+  x: 498
+
+Tool2Icon1:
+  extends: ToolIconBase
+  x: 400
+
+Tool2Icon2:
+  extends: ToolIconBase
+  x: 620
+
+Tool3Icon1:
+  extends: ToolIconBase
+  x: 292
+
+Tool3Icon2:
+  extends: ToolIconBase
+  x: 512
+
+Tool3Icon3:
+  extends: ToolIconBase
+  x: 732
+
+Tool4Icon1:
+  extends: ToolIconBase
+  x: 346
+  y: 146
+
+Tool4Icon2:
+  extends: ToolIconBase
+  x: 566
+  y: 146
+
+Tool4Icon3:
+  extends: ToolIconBase
+  x: 678
+  y: 312
+
+Tool5Icon1:
+  extends: ToolIconBase
+  x: 400
+  y: 146
+
+Tool5Icon2:
+  extends: ToolIconBase
+  x: 620
+  y: 146
+
+Tool5Icon3:
+  extends: ToolIconBase
+  x: 510
+  y: 312
