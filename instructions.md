@@ -6,18 +6,18 @@ In this game, you and your fellow players run companies creating tools using dat
 
 Data looks like this:
 
-<img src="tiles/transport-closed.svg" height="48">
+<img src="tiles/transport-closed.png" height="48">
 
 There are six kinds of data. Each is represented by a different colour tile.
 
 Tile | Data | Impact
 --|-----|------
-<img src="tiles/product-closed.svg" height="48"> <img src="tiles/product-open.svg" height="48"> | Product | Economic
-<img src="tiles/transport-closed.svg" height="48"> <img src="tiles/transport-open.svg" height="48"> | Transport | Economic
-<img src="tiles/geography-closed.svg" height="48"> <img src="tiles/geography-open.svg" height="48"> | Geography | Environmental
-<img src="tiles/weather-closed.svg" height="48"> <img src="tiles/weather-open.svg" height="48"> | Weather | Environmental
-<img src="tiles/democracy-closed.svg" height="48"> <img src="tiles/democracy-open.svg" height="48"> | Democracy | Social
-<img src="tiles/health-closed.svg" height="48"> <img src="tiles/health-open.svg" height="48"> | Health | Social
+<img src="tiles/product-closed.png" height="48"> <img src="tiles/product-open.png" height="48"> | Product | Economic
+<img src="tiles/transport-closed.png" height="48"> <img src="tiles/transport-open.png" height="48"> | Transport | Economic
+<img src="tiles/geography-closed.png" height="48"> <img src="tiles/geography-open.png" height="48"> | Geography | Environmental
+<img src="tiles/weather-closed.png" height="48"> <img src="tiles/weather-open.png" height="48"> | Weather | Environmental
+<img src="tiles/democracy-closed.png" height="48"> <img src="tiles/democracy-open.png" height="48"> | Democracy | Social
+<img src="tiles/health-closed.png" height="48"> <img src="tiles/health-open.png" height="48"> | Health | Social
 
 Each tile represents a dataset. For example, a Transport tile might represent data about bus timetables or the locations of rail stations.
 
@@ -27,13 +27,13 @@ Over the course of the game, you and others place tiles to create the **data inf
 
 Within the data infrastructure, individual datasets can be closed or open. **Closed data** looks like:
 
-<img src="tiles/health-closed.svg" height="48">
+<img src="tiles/health-closed.png" height="48">
 
 **Closed data** will have a counter on it indicating the player you **owns** the data. Only that player can legally use that data when building tools (but see Hacking, below).
 
 **Open data** looks like:
 
-<img src="tiles/health-open.svg" height="48">
+<img src="tiles/health-open.png" height="48">
 
 Anyone can use **open data** when building tools.
 
@@ -57,7 +57,7 @@ The world is in a state of flux. The **world board** shows how well the world is
 <tr>
 <th style="width: 33%; text-align: center">Social</th><th style="width: 33%; text-align: center">Environmental</th><th style="width: 33%; text-align: center">Economic</th>
 </tr>
-<tr><td style="text-align: center"><img src="world-board/Social.svg" height="48"></td><td style="text-align: center"><img src="world-board/Environmental.svg" height="48"></td><td style="text-align: center"><img src="world-board/Economic.svg" height="48"></td></tr>
+<tr><td style="text-align: center"><img src="world-board/Social.png" height="48"></td><td style="text-align: center"><img src="world-board/Environmental.png" height="48"></td><td style="text-align: center"><img src="world-board/Economic.png" height="48"></td></tr>
 </table>
 
 Each of these scores varies from 0 to 8. 8 represents utopia. 0 represents complete social, environmental or economic collapse. **If any score gets to 0 the game is over; everyone loses.**
