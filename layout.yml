@@ -1,0 +1,12 @@
+AllText:
+  font: Helvetica Neue,Helvetica,Arial,Sans 24
+  align: center
+  color: '#333333'
+
+EventText:
+  extends: AllText
+  x: 20
+  y: 40
+  width: 296
+  height: 100
+  valign: middle
