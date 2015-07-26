@@ -1,7 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     version="1.1">
-  <use xlink:href="defs.svg#hexagon" fill="#D60303" />
-  <use xlink:href="defs.svg#hexagon" fill="white" transform="translate(27,31.25) scale(0.75,0.75)" />
-  <use xlink:href="defs.svg#health" fill="#333333" transform="translate(58,75.5)" />
+     version="1.1" viewBox="0 0 216 250">
+  <g fill="#D60303"><polygon stroke-width="0" fill="#D60303"
+      points="108,0 216,62.5 216,187.5
+              108,250 0,187.5 0,62.5" /></g>
+  <g fill="white" transform="translate(27,31.25) scale(0.75,0.75)"><polygon stroke-width="0" fill="white" transform="translate(27,31.25) scale(0.75,0.75)"
+      points="108,0 216,62.5 216,187.5
+              108,250 0,187.5 0,62.5" /></g>
+  <g fill="#333333" transform="translate(58,75.5)"><g transform="scale(1.2) translate(-7.8,-5)">
+      <path d="M71.611,14.981c-9.679,0-17.985,5.842-21.614,14.185c-3.628-8.343-11.922-14.185-21.601-14.185  c-13.023,0-23.573,10.553-23.573,23.57c0,7.755,3.807,14.581,9.58,18.876l35.594,27.591l35.601-27.591  c5.78-4.295,9.58-11.121,9.58-18.876C95.178,25.535,84.621,14.981,71.611,14.981z M72.329,53.09H59.881l-3.455-9.343L48.84,67.1  l-7.623-17.074l-0.762,2.175H27.673v-3.558h10.258l2.886-8.241l7.499,16.795l7.892-24.296l6.152,16.631h9.97V53.09z"/>
+    </g></g>
 </svg>

@@ -1,6 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     version="1.1">
-  <use xlink:href="defs.svg#hexagon" fill="#EF3AAB" />
-  <use xlink:href="defs.svg#product" transform="translate(58,75.5)" fill="white" />
+     version="1.1" viewBox="0 0 216 250">
+  <g fill="#EF3AAB"><polygon stroke-width="0" fill="#EF3AAB"
+      points="108,0 216,62.5 216,187.5
+              108,250 0,187.5 0,62.5" /></g>
+  <g transform="translate(58,75.5)" fill="white">
+      <rect y="18" width="8" height="63"/>
+      <rect x="14" y="18" width="8" height="63"/>
+      <rect x="27" y="18" width="8" height="63"/>
+      <rect x="39" y="18" width="4" height="63"/>
+      <rect x="49" y="18" width="4" height="63"/>
+      <rect x="63" y="18" width="11" height="63"/>
+      <rect x="81" y="18" width="10" height="63"/>
+      <rect x="96" y="18" width="4" height="63"/>                    
+</g>
 </svg>

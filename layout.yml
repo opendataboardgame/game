@@ -27,3 +27,28 @@ EventEffectText:
   font_size: 144
   font_weight: 900
   x: 510
+
+ToolImpactIcon:
+  x: 90
+  width: 162
+  height: 162
+
+ToolImpactIcon1:
+  extends: ToolImpactIcon
+  y: 100
+
+ToolImpactIcon2:
+  extends: ToolImpactIcon
+  y: 275
+
+ToolImpactIcon3:
+  extends: ToolImpactIcon
+  y: 450
+
+ToolIcon:
+  extends: AllText
+  x: 498
+  y: 229
+  width: 216
+  height: 216
+  valign: middle

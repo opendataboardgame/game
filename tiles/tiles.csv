@@ -1,7 +1,7 @@
-data,colour,filename,url,acknowledgement
-Product,#EF3AAB,noun_1906_cc,https://thenounproject.com/search/?q=barcode&i=1906,Barcode by Charles-Axel Pauwels from the Noun Project
-Transport,#722EA5,noun_21833_cc,https://thenounproject.com/search/?q=transport&i=21833,Train by Michael Zenaty from the Noun Project
-Geography,#0DBC37,noun_8262_cc,https://thenounproject.com/search/?q=geography&i=8262,Map Marker by Jardson Almeida from the Noun Project
-Weather,#178CFF,noun_40929_cc,https://thenounproject.com/search/?q=weather&i=40929,Partly Cloudy by Timo W from the Noun Project
-Democracy,#F9BC26,noun_168038_cc,https://thenounproject.com/search/?q=ballot&i=168038,Ballot Box by Darin S from the Noun Project
-Health,#D60303,noun_53333_cc,https://thenounproject.com/search/?q=health&i=53333,Health by Christopher Holm-Hansen from the Noun Project
+data,impact,colour,filename,url,acknowledgement
+Product,Economic,#EF3AAB,noun_1906_cc,https://thenounproject.com/search/?q=barcode&i=1906,Barcode by Charles-Axel Pauwels from the Noun Project
+Transport,Economic,#722EA5,noun_21833_cc,https://thenounproject.com/search/?q=transport&i=21833,Train by Michael Zenaty from the Noun Project
+Geography,Environmental,#0DBC37,noun_8262_cc,https://thenounproject.com/search/?q=geography&i=8262,Map Marker by Jardson Almeida from the Noun Project
+Weather,Environmental,#178CFF,noun_40929_cc,https://thenounproject.com/search/?q=weather&i=40929,Partly Cloudy by Timo W from the Noun Project
+Democracy,Social,#F9BC26,noun_168038_cc,https://thenounproject.com/search/?q=ballot&i=168038,Ballot Box by Darin S from the Noun Project
+Health,Social,#D60303,noun_53333_cc,https://thenounproject.com/search/?q=health&i=53333,Health by Christopher Holm-Hansen from the Noun Project

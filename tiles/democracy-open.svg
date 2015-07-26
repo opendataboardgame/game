@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     version="1.1">
-  <use xlink:href="defs.svg#hexagon" fill="#F9BC26" />
-  <use xlink:href="defs.svg#hexagon" fill="white" transform="translate(27,31.25) scale(0.75,0.75)" />
-  <use xlink:href="defs.svg#democracy" fill="#333333" transform="translate(58,75.5)" />
+     version="1.1" viewBox="0 0 216 250">
+  <g fill="#F9BC26"><polygon stroke-width="0" fill="#F9BC26"
+      points="108,0 216,62.5 216,187.5
+              108,250 0,187.5 0,62.5" /></g>
+  <g fill="white" transform="translate(27,31.25) scale(0.75,0.75)"><polygon stroke-width="0" fill="white" transform="translate(27,31.25) scale(0.75,0.75)"
+      points="108,0 216,62.5 216,187.5
+              108,250 0,187.5 0,62.5" /></g>
+  <g fill="#333333" transform="translate(58,75.5)"><g transform="scale(1.2) translate(-7.8,-12.5)">
+      <rect x="11" y="49" width="78" height="34"/>
+      <path d="M73,29h-6V17H33v12h-6L11,47h78L73,29z M33,41h-1.353c-2.534,0-4.588-1.466-4.588-4   s2.054-4,4.588-4H33V41z M63,41H37V21h26V41z M68.353,41H67v-8h1.353c2.534,0,4.588,1.466,4.588,4S70.887,41,68.353,41z"/>
+    </g></g>
 </svg>
