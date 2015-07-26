@@ -6,18 +6,18 @@ In this game, you and your fellow players run companies creating tools using dat
 
 Data looks like this:
 
-[insert picture of data tiles]
+<img src="tiles/transport-closed.svg" height="48">
 
 There are six kinds of data. Each is represented by a different colour tile.
 
 Tile | Data | Impact
 --|-----|------
-[red data] | Product | Economic
-[purple data] | Transport | Economic
-[green data] | Geography | Environmental
-[blue data] | Weather | Environmental
-[yellow data] | Democracy | Social
-[orange data] | Health | Social
+<img src="tiles/product-closed.svg" height="48"> <img src="tiles/product-open.svg" height="48"> | Product | Economic
+<img src="tiles/transport-closed.svg" height="48"> <img src="tiles/transport-open.svg" height="48"> | Transport | Economic
+<img src="tiles/geography-closed.svg" height="48"> <img src="tiles/geography-open.svg" height="48"> | Geography | Environmental
+<img src="tiles/weather-closed.svg" height="48"> <img src="tiles/weather-open.svg" height="48"> | Weather | Environmental
+<img src="tiles/democracy-closed.svg" height="48"> <img src="tiles/democracy-open.svg" height="48"> | Democracy | Social
+<img src="tiles/health-closed.svg" height="48"> <img src="tiles/health-open.svg" height="48"> | Health | Social
 
 Each tile represents a dataset. For example, a Transport tile might represent data about bus timetables or the locations of rail stations.
 
@@ -27,13 +27,13 @@ Over the course of the game, you and others place tiles to create the **data inf
 
 Within the data infrastructure, individual datasets can be closed or open. **Closed data** looks like:
 
-[closed dataset]
+<img src="tiles/health-closed.svg" height="48">
 
 **Closed data** will have a counter on it indicating the player you **owns** the data. Only that player can legally use that data when building tools (but see Hacking, below).
 
 **Open data** looks like:
 
-[open dataset]
+<img src="tiles/health-open.svg" height="48">
 
 Anyone can use **open data** when building tools.
 
@@ -43,9 +43,9 @@ Counters on the tiles indicate who is using the data in the **data infrastructur
 
 You can build tools by linking different kinds of data together. Each tool that you can build is represented by a card. For example:
 
-[transport + weather + geography]
+![tool card](instructions/tool-card.png)
 
-This tool is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
+This tool uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
 
 During your turn, you can build new tools by matching the data shown on the card to the data that's available in the **data infrastructure**. The data in the **data infrastructure** must have exactly the same configuration as the picture on the card.
 
@@ -53,29 +53,46 @@ During your turn, you can build new tools by matching the data shown on the card
 
 The world is in a state of flux. The **world board** shows how well the world is socially, environmentally and economically. 
 
+<table width="100%">
+<tr>
+<th style="width: 33%; text-align: center">Social</th><th style="width: 33%; text-align: center">Environmental</th><th style="width: 33%; text-align: center">Economic</th>
+</tr>
+<tr><td style="text-align: center"><img src="world-board/Social.svg" height="48"></td><td style="text-align: center"><img src="world-board/Environmental.svg" height="48"></td><td style="text-align: center"><img src="world-board/Economic.svg" height="48"></td></tr>
+</table>
+
 Each of these scores varies from 0 to 8. 8 represents utopia. 0 represents complete social, environmental or economic collapse. **If any score gets to 0 the game is over; everyone loses.**
 
 Building tools helps the world. When you build a new tool, you may have a social, environmental or economic impact and increases one of the scores by one. You can choose which type of impact you have depending on the types of data that are used by the tool.
 
 For example, if you build the tool:
 
-[transport + weather + geography]
+![tool card](instructions/tool-card.png)
 
-you can choose to either have an economic or an environmental impact.
+you can choose to either have an economic or an environmental impact. These icons are highlighted on the card.
+
+### Events
+
+Each turn, something happens in the world. These are represented by **event cards**, which look like:
+
+![event card](instructions/event-card.png)
+
+Events alter the world scores. They can add to a world score or (more frequently) reduce the score.
 
 ## Set Up
 
 1. Set up the **world board**. Set each of the social, environmental and economic scores to 3.
 
-2. Place the **data tiles** in the bag.
+2. Shuffle and place the **event cards** in a stack.
 
-3. Select a **data tile** at random from the bag and place it as **open data** in the centre of the table as the first piece of **data infrastructure**.
+3. Place the **data tiles** in the bag.
 
-4. Each player should choose a colour token and place these **player tokens** beside them.
+4. Select a **data tile** at random from the bag and place it as **open data** in the centre of the table as the first piece of **data infrastructure**.
 
-5. Each player should pick a **data tile** at random from the bag and place it next to the central **open data** as **closed data** within the **data infrastructure**, placing one of their tokens on their tile.
+5. Each player should choose a colour token and place these **player tokens** beside them.
 
-6. Shuffle the pack of **tool cards** and deal two **tool cards** to each player. Place the remaining **tool cards** somewhere everyone can reach.
+6. Each player should pick a **data tile** at random from the bag and place it next to the central **open data** as **closed data** within the **data infrastructure**, placing one of their tokens on their tile.
+
+7. Shuffle the pack of **tool cards** and deal eight **tool cards** face down in front of each player. Place the remaining **tool cards** back in the box. Each player can take two **tool cards** into their hand.
 
 ## Turn Taking
 
@@ -83,7 +100,7 @@ Your hand consists of a number of **data tiles** and **tool cards**. When it is 
 
 1. Select a **data tile** at random from the bag to join your hand.
 
-2. Play any **tool cards** that you want to play. You may play any number of **tool cards** during your turn; these remain in front of you to demonstrate your success. Play a **tool card** by:
+2. Play any **tool cards** that you want to play. You may play any number of **tool cards** during your turn; these remain face up in front of you to demonstrate your success. Play a **tool card** by:
 
    a. placing the **tool card** on the table so that it is visible to everyone
    
@@ -93,15 +110,9 @@ Your hand consists of a number of **data tiles** and **tool cards**. When it is 
    
    d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your tool
    
-3. Take a new **tool card** from the pile.
+3. Take a new **tool card** from the pile in front of you.
 
-4. Roll the dice to see how the world is changing:
-
-Dice roll | Affect
--|-
-1 or 2|reduce social score by one
-3 or 4|reduce environmental score by one
-5 or 6|reduce economic score by one
+4. Take a new **event card** from the pile and adjust the **world board** accordingly.
 
 ### Negotiation
 
@@ -138,7 +149,7 @@ The game ends in three scenarios:
 
 2. The **world score** on all three impact measures increases to eight. Everyone wins.
 
-3. Any player uses all the **tool cards** from their hand, and there are no more **tool cards** left in the pack. The player who has built the most tools wins.
+3. Any player uses all the **tool cards** from their hand, and there are no more **tool cards** in their pile. The player who has built the most tools wins.
 
 ## Example of Play
 
