@@ -52,7 +52,7 @@ During your turn, you can build new tools by matching the data shown on the card
 
 ## The World
 
-The world is in a state of flux. The **world board** shows how well the world is socially, environmentally and economically. 
+The world is in a state of flux. The **world board** shows how well the world is socially, environmentally and economically.
 
 <table width="100%">
 <tr>
@@ -87,7 +87,7 @@ Events alter the world scores. They can add to a world score or (more frequently
 
 3. Place the **data tiles** in the bag.
 
-4. Select a **data tile** at random from the bag and place it as **open data** in the centre of the table as the first piece of **data infrastructure**.
+4. Select one **data tile** at random from the bag and place it as **open data** in the centre of the table. This is the first piece of **data infrastructure**.
 
 5. Each player should choose a colour token and place these **player tokens** beside them.
 
@@ -104,13 +104,13 @@ Your hand consists of a number of **data tiles** and **tool cards**. When it is 
 2. Play any **tool cards** that you want to play. You may play any number of **tool cards** during your turn; these remain face up in front of you to demonstrate your success. Play a **tool card** by:
 
    a. placing the **tool card** on the table so that it is visible to everyone
-   
+
    b. placing **data tiles** from your hand as necessary, either as **closed data** or as **open data** to expand the **data infrastructure**
-   
+
    c. placing your tokens on all the data tiles that are used to create the tool
-   
+
    d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your tool
-   
+
 3. Take a new **tool card** from the pile in front of you.
 
 4. Take a new **event card** from the pile and adjust the **world board** accordingly.
@@ -124,7 +124,7 @@ At any time, you may negotiate with any other player. You can try to persuade ot
   * give you a **data tile**
   * give you a **tool card**
   * open data in the **data infrastructure**
-  
+
 You will usually have to do one of these things in exchange.
 
 You can choose what to show other players of your hand. You may play with an open hand, so that everyone can see what you have and what you need. You may play with an open hand of tools but hide which data you have. You may show some tools but not others. It is up to you.
