@@ -117,15 +117,15 @@ Your hand consists of a number of **data tiles** and **tool cards**. When it is 
 
 ### Negotiation
 
-At any time, you may open data that you own in the **data infrastructure** by flipping over the **data tile** to turn it from **closed data** to **open data**. (You cannot turn data from open data to closed data.)
+At any time, a player may open data that they own in the **data infrastructure** by flipping over the **data tile** to turn it from **closed data** to **open data**. (Data cannot be changed back from open data to closed data.)
 
-At any time, you may negotiate with any other player. You can try to persuade other players to:
+During your turn, you may negotiate with any other player. You can try to persuade other players to:
 
   * give you a **data tile**
   * give you a **tool card**
   * open data in the **data infrastructure**
 
-You will usually have to do one of these things in exchange.
+You will usually have to do one of these things in exchange. Players cannot negotiate with each other unless it is their turn.
 
 You can choose what to show other players of your hand. You may play with an open hand, so that everyone can see what you have and what you need. You may play with an open hand of tools but hide which data you have. You may show some tools but not others. It is up to you.
 
