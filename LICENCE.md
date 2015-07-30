@@ -12,7 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Copyright 2015 The Open Data Institute
 
-Images and text are licensed under a [Creative Commons Attribution-ShareAlike 4.0 UK: International Licence](https://creativecommons.org/licenses/by/4.0/).
+Images and text are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
 
 You are free to:
 
