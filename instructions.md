@@ -127,7 +127,7 @@ During your turn, you may negotiate with any other player. You can try to persua
   * give you a **app card**
   * open data in the **data infrastructure**
 
-You will usually have to do one of these things in exchange.
+You will usually have to do one of these things in exchange. Players cannot negotiate with each other unless it is their turn.
 
 You can choose what to show other players of your hand. You may play with an open hand, so that everyone can see what you have and what you need. You may play with an open hand of tools but hide which data you have. You may show some tools but not others. It is up to you.
 
