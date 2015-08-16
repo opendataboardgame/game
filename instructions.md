@@ -1,6 +1,6 @@
 # Open Data Boardgame Instructions
 
-In this game, you and your fellow players run companies creating tools using data. Your goal is to create the most tools.
+In this game, you and your fellow players run companies creating applications using data. Your goal is to create the most applications.
 
 ## Data
 
@@ -26,33 +26,35 @@ Over the course of the game, you and others place tiles to create the **data inf
 
 [data infrastructure]
 
-Within the data infrastructure, individual datasets can be closed or open. **Closed data** looks like:
+Within the data infrastructure, individual datasets can be closed or open. As the player placing data tiles, you can choose whether to place the tile as **open data** or **closed data**.
+
+ **Closed data** looks like:
 
 <img src="tiles/health-closed.png" height="48">
 
-**Closed data** will have a counter on it indicating the player you **owns** the data. Only that player can legally use that data when building tools (but see Hacking, below).
+Only the player who has placed **closed data** can legally use that data to build apps (but see Hacking, below). Players cannot place their data tiles next to closed data that they do not own.
 
 **Open data** looks like:
 
 <img src="tiles/health-open.png" height="48">
 
-Anyone can use **open data** when building tools.
+Any player can use **open data** to build apps.
 
 Counters on the tiles indicate who is using the data in the **data infrastructure**.
 
-## Tools
+## Apps
 
-You can build tools by linking different kinds of data together. Each tool that you can build is represented by a card. For example:
+You can build apps by linking different kinds of data together. Each app that you can build is represented by a card. For example:
 
 <img src="instructions/tool-card.png" width="525">
 
-This tool uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
+This app uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
 
-During your turn, you can build new tools by matching the data shown on the card to the data that's available in the **data infrastructure**. The data in the **data infrastructure** must have exactly the same configuration as the picture on the card.
+During your turn, you can build new apps by matching the data shown on the card to the data that's available in the **data infrastructure**. The data in the **data infrastructure** must have exactly the same configuration as the picture on the card.
 
 ## The World
 
-The world is in a state of flux. The **world board** shows how well the world is socially, environmentally and economically.
+The world is in a state of flux. The **world board** shows how healthy the world is socially, environmentally and economically.
 
 <table width="100%">
 <tr>
@@ -63,7 +65,7 @@ The world is in a state of flux. The **world board** shows how well the world is
 
 Each of these scores varies from 0 to 8. 8 represents utopia. 0 represents complete social, environmental or economic collapse. **If any score gets to 0 the game is over; everyone loses.**
 
-Building tools helps the world. When you build a new tool, you may have a social, environmental or economic impact and increases one of the scores by one. You can choose which type of impact you have depending on the types of data that are used by the tool.
+Building apps helps the world. When you build a new app, you may have a social, environmental or economic impact that increases one of the scores by one. You can choose which type of impact you have depending on the types of data that are used by the tool.
 
 For example, if you build the tool:
 
@@ -87,42 +89,42 @@ Events alter the world scores. They can add to a world score or (more frequently
 
 3. Place the **data tiles** in the bag.
 
-4. Select one **data tile** at random from the bag and place it as **open data** in the centre of the table. This is the first piece of **data infrastructure**.
+4. Select one **data tile** at random from the bag and place it as **open data** in the centre of the table. This will be the first piece of **data infrastructure**, around which you start the game.
 
-5. Each player should choose a colour token and place these **player tokens** beside them.
+5. Each player chooses a set of coloured token, called **counters**.  These **counters** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your apps.
 
-6. Each player should pick a **data tile** at random from the bag and place it next to the central **open data** as **closed data** within the **data infrastructure**, placing one of their tokens on their tile.
+6. Each player picks one **data tile** at random from the bag and places it within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. Add a **counter** on top of your **closed data**, to signify ownership.
 
-7. Shuffle the pack of **tool cards** and deal eight **tool cards** face down in front of each player. Place the remaining **tool cards** back in the box. Each player can take two **tool cards** into their hand.
+7. Shuffle the pack of **app cards** and deal eight **app cards** face down in front of each player. Place the remaining **app cards** back in the box. Each player takes two **app cards** into their hand.
 
 ## Turn Taking
 
-Your hand consists of a number of **data tiles** and **tool cards**. When it is your turn:
+Your hand consists of a number of **data tiles** and **app cards**. When it is your turn:
 
 1. Select a **data tile** at random from the bag to join your hand.
 
-2. Play any **tool cards** that you want to play. You may play any number of **tool cards** during your turn; these remain face up in front of you to demonstrate your success. Play a **tool card** by:
+2. Play any **app cards** that you want to play. You may play any number of **app cards** during your turn; these remain face up in front of you to demonstrate your success. Play an **app card** by:
 
-   a. placing the **tool card** on the table so that it is visible to everyone
+   a. placing the **app card** on the table so that it is visible to everyone
 
-   b. placing **data tiles** from your hand as necessary, either as **closed data** or as **open data** to expand the **data infrastructure**
+   b. placing **data tiles** from your hand needed to complete the app, either as **closed data** or as **open data** to expand the **data infrastructure**
 
-   c. placing your tokens on all the data tiles that are used to create the tool
+   c. placing your tokens on all the data tiles that are used to create the app
 
-   d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your tool
+   d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your app
 
-3. Take a new **tool card** from the pile in front of you.
+3. Take a new **app card** from the pile in front of you.
 
-4. Take a new **event card** from the pile and adjust the **world board** accordingly.
+4. Take a new **event card** from the communal pile and adjust the **world board** accordingly.
 
 ### Negotiation
 
-At any time, you may open data that you own in the **data infrastructure** by flipping over the **data tile** to turn it from **closed data** to **open data**. (You cannot turn data from open data to closed data.)
+During your turn, you may open data that you own in the **data infrastructure** by flipping over the **data tile** to turn it from **closed data** to **open data**. (You cannot turn data from open data to closed data.)
 
-At any time, you may negotiate with any other player. You can try to persuade other players to:
+During your turn, you may negotiate with any other player. You can try to persuade other players to:
 
   * give you a **data tile**
-  * give you a **tool card**
+  * give you a **app card**
   * open data in the **data infrastructure**
 
 You will usually have to do one of these things in exchange.
