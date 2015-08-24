@@ -1,4 +1,4 @@
-# Open Data Boardgame Instructions
+# Open Data Board Game Instructions
 
 In this game, you and your fellow players run companies creating applications using data. Your goal is to create the most applications.
 
@@ -42,6 +42,14 @@ Any player can use **open data** to build apps.
 
 Counters on the tiles indicate who is using the data in the **data infrastructure**.
 
+## Laying tiles
+
+During your turn, you may only lay tiles if you will use that(those) tiles complete one of your app cards. You may lay as many tiles as you like in one turn if in doing so, you will complete apps.
+
+You cannot lay tiles that touch closed data owned by another player [exception, see Hacking below].
+
+You can make data tiles that you own open at any point during your turn. You cannot turn open data back into closed data.
+
 ## Apps
 
 You can build apps by linking different kinds of data together. Each app that you can build is represented by a card. For example:
@@ -79,7 +87,7 @@ Each turn, something happens in the world. These are represented by **event card
 
 <img src="instructions/event-card.png" width="525">
 
-Events alter the world scores. They can add to a world score or (more frequently) reduce the score.
+Event cards reduce the health of the world.
 
 ## Set Up
 
@@ -91,9 +99,9 @@ Events alter the world scores. They can add to a world score or (more frequently
 
 4. Select one **data tile** at random from the bag and place it as **open data** in the centre of the table. This will be the first piece of **data infrastructure**, around which you start the game.
 
-5. Each player chooses a set of coloured token, called **counters**.  These **counters** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your apps.
+5. Each player chooses a set of coloured tokens, called **counters**.  These **counters** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your apps. By the end of the game, the counters will enable you to see which data sets are most useful in the data infrastructure.
 
-6. Each player picks one **data tile** at random from the bag and places it within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. Add a **counter** on top of your **closed data**, to signify ownership.
+6. Each player picks one **data tile** at random from the bag and places it within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. In this phase, you may lay your tile touching another player's closed data. At no other point in the game can you do this. Add a **counter** on top of your **closed data**, to signify that you own the data.
 
 7. Shuffle the pack of **app cards** and deal eight **app cards** face down in front of each player. Place the remaining **app cards** back in the box. Each player takes two **app cards** into their hand.
 
@@ -113,7 +121,7 @@ Your hand consists of a number of **data tiles** and **app cards**. When it is y
 
    d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your app
 
-3. Take a new **app card** from the pile in front of you.
+3. Take a new **app card** from the pile you have in front of you.
 
 4. Take a new **event card** from the communal pile and adjust the **world board** accordingly.
 
@@ -123,11 +131,12 @@ During your turn, you may open data that you own in the **data infrastructure** 
 
 During your turn, you may negotiate with any other player. You can try to persuade other players to:
 
-  * give you a **data tile**
-  * give you a **app card**
-  * open data in the **data infrastructure**
+  * give you a **data tile** (either outright or in exchange for data tiles)
+  * give you a **app card** (either outright or in exchange for data tiles)
 
-You will usually have to do one of these things in exchange. Players cannot negotiate with each other unless it is their turn.
+You can also negotiate with other players to open up data that they own. However, that player cannot open data tiles that they have already laid until it is their turn.
+
+Players cannot negotiate with each other unless it is their turn.
 
 You can choose what to show other players of your hand. You may play with an open hand, so that everyone can see what you have and what you need. You may play with an open hand of tools but hide which data you have. You may show some tools but not others. It is up to you.
 
@@ -164,14 +173,14 @@ The data infrastructure looks like this:
 
 The world score looks like this:
 
-She draws a blue data tile and realises that she can place it to build the first of the tools in her hand. However, doing this would not help the economy, which is in bad shape. If she rolls a 5 or 6 on the dice, it could be game over!
+She draws a blue data tile and realises that she can place it to build the first of the tools in her hand. However, doing this would not help the economy, which is in bad shape. If she picks up an event card that causes damage to the economy, the game could be over!
 
-Ellen could place her second card, which would enable her to increase the economy score, if she could use James' yellow data. She asks him to open up that yellow data so that she can use it and offers the blue data that she has in exchange.
+Ellen could place her second card, which would enable her to increase the economy score, if she could use James' yellow data that he has in his hand. She asks James for his yellow data, and offers the blue data that she has in exchange.
 
-James takes the deal. He opens up his yellow data, leaving the data infrastructure like this:
+James takes the deal, but with one condition: that she lays that yellow data as open data. Ellen agrees. James provides the yellow data, Ellen lays it as open data, leaving the data infrastructure like this:
 
 Ellen plays the second of her tool cards. She places her tokens on the three datasets that she uses. The data infrastructure looks like:
 
 Ellen choses to increase the economy score. The world score looks like:
 
-Then Ellen rolls the dice. It's a 6! Ellen reduces the economy score again: it's a good thing she managed to play that application. If she hadn't, the game would be over.
+Ellen picks up an event card: argh! The economy takes a hit! Ellen reduces the economy score again: it's a good thing she managed to play that application. If she hadn't, the game would be over.
