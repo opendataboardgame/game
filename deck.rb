@@ -1,6 +1,6 @@
 require 'squib'
 
-Squib::Deck.new(cards: 36, width: 1050, height: 675, layout: 'layout.yml') do
+Squib::Deck.new(cards: 27, width: 1050, height: 675, layout: 'layout.yml') do
   background color: '#FFFFFF'
 
   events = csv file: 'events/events.csv'
