@@ -22,7 +22,7 @@ There are six kinds of data. Each is represented by a different colour tile.
 
 Each tile represents a dataset. For example, a Transport tile might represent data about bus timetables or the locations of rail stations.
 
-Over the course of the game, you and others place tiles to create the **data infrastructure**. A data infrastructure looks like:
+Over the course of the game, you and others place tiles to create the **data infrastructure**. Your data infrastructure looks like:
 
 [data infrastructure]
 
@@ -161,7 +161,11 @@ The game ends in three scenarios:
 
 2. The **world score** on all three impact measures increases to eight. Everyone wins.
 
-3. Any player reaches 10 points based on the number of **tool cards** they have completed. 
+3. Any player reaches 10 points based on the number of **tool cards** they have completed.
+
+## If the world score gets to zero
+
+If the world score gets to zero on any impact measure, players have **one chance** to recover from collapse. Despite the world score being zero, the next player can take their turn as usual. All players should work with that player to try to complete a tool and rebuild the health of the world. For this one **recovery play** the health of that impact measure can be returned to three.
 
 ## Example of Play
 
