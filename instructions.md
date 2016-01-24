@@ -1,6 +1,6 @@
 # Open Data Board Game Instructions
 
-In this game, you and your fellow players run companies creating applications using data. Your goal is to create the most applications.
+In this game, you and your fellow players run companies creating tools using data. You will work together to improve the health of the world you live in, and keep it from economic, social or environmental collapse. While you collaborate to maintain the health of your world, you have your own roles that can change the results of the game.
 
 ## Data
 
@@ -32,33 +32,41 @@ Within the data infrastructure, individual datasets can be closed or open. As th
 
 <img src="tiles/health-closed.png" height="48">
 
-Only the player who has placed **closed data** can legally use that data to build apps (but see Hacking, below). Players cannot place their data tiles next to closed data that they do not own.
+Only the player who has placed **closed data** can legally use that data to build apps. Players cannot build tools using other players' closed data.
 
 **Open data** looks like:
 
 <img src="tiles/health-open.png" height="48">
 
-Any player can use **open data** to build apps.
+Any player can use **open data** on the board to build tools.
 
-Counters on the tiles indicate who is using the data in the **data infrastructure**.
+Cones on the tiles indicate who is using the data in the **data infrastructure**. At the end of the game, the height of cones tells you which data is most used, and useful, in your data infrastructure.
+
+## Winning the game
+
+You win the game, and the game ends, if as a team all of the world scores - environmental, economic and social - get to 8.
+
+You can also win individually - and end the game - if you are the first player to build tools adding up to 10 points. Each hexagon in a tool card is worth one point (so if you complete a tool with three hexagons, you receive three points).
+
+At the end of the game, more than one player may be an individual winner. Each player has a role card with an individual winning condition.
 
 ## Laying tiles
 
-During your turn, you may only lay tiles if you will use that(those) tiles complete one of your app cards. You may lay as many tiles as you like in one turn if in doing so, you will complete apps.
-
-You cannot lay tiles that touch closed data owned by another player [exception, see Hacking below].
+During your turn, you may only lay tiles if you will use that(those) tiles complete one or more of your tool cards. You may lay as many tiles as you like in one turn if in doing so, you will complete tools.
 
 You can make data tiles that you own open at any point during your turn. You cannot turn open data back into closed data.
 
-## Apps
+Some data tiles have a black spot on them. These data tiles contain **private** or **personal** data and can never be opened.
 
-You can build apps by linking different kinds of data together. Each app that you can build is represented by a card. For example:
+## Tools
+
+You can build tools by linking different kinds of data together. Each tool that you can build is represented by a card. For example:
 
 <img src="instructions/tool-card.png" width="525">
 
-This app uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
+This tool uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
 
-During your turn, you can build new apps by matching the data shown on the card to the data that's available in the **data infrastructure**. The data in the **data infrastructure** must have exactly the same configuration as the picture on the card.
+During your turn, you can build new tools by matching the data shown on the card to the data that's available in the **data infrastructure**. The data in the **data infrastructure** must have exactly the same configuration as the picture on the card. When building a new tool, you should describe for other players what it is you're building. For example, your tool using transport, weather and location data might be a 'wearable allowing you to dodge raindrops on your journey home.'
 
 ## The World
 
@@ -73,7 +81,7 @@ The world is in a state of flux. The **world board** shows how healthy the world
 
 Each of these scores varies from 0 to 8. 8 represents utopia. 0 represents complete social, environmental or economic collapse. **If any score gets to 0 the game is over; everyone loses.**
 
-Building apps helps the world. When you build a new app, you may have a social, environmental or economic impact that increases one of the scores by one. You can choose which type of impact you have depending on the types of data that are used by the tool.
+Building tools can help the world. When you build a new tool, you may have a social, environmental or economic impact that increases one of the scores by one. You can choose which type of impact you have depending on the types of data that are used by the tool.
 
 For example, if you build the tool:
 
@@ -87,43 +95,47 @@ Each turn, something happens in the world. These are represented by **event card
 
 <img src="instructions/event-card.png" width="525">
 
-Event cards reduce the health of the world.
+Event cards reduce the health of the world, and can change the rules of the game.
 
 ## Set Up
 
-1. Set up the **world board**. Set each of the social, environmental and economic scores to 3.
+1. Set up the **world board**. Set each of the social, environmental and economic scores to 4.
 
 2. Shuffle and place the **event cards** in a stack.
 
-3. Place the **data tiles** in the bag.
+3. Place the **data tiles** in a bag or box.
+
+5. Provide each player with a **role card**. This is your individual winning condition for the game. Do not show your role to any other player.
 
 4. Select one **data tile** at random from the bag and place it as **open data** in the centre of the table. This will be the first piece of **data infrastructure**, around which you start the game.
 
-5. Each player chooses a set of coloured tokens, called **counters**.  These **counters** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your apps. By the end of the game, the counters will enable you to see which data sets are most useful in the data infrastructure.
+5. Each player chooses a set of coloured tokens, called **cones**.  These **coness** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your tools. By the end of the game, the cones will enable you to see which data sets are most useful in the data infrastructure.
 
-6. Each player picks one **data tile** at random from the bag and places it within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. In this phase, you may lay your tile touching another player's closed data. At no other point in the game can you do this. Add a **counter** on top of your **closed data**, to signify that you own the data.
+6. Each player picks two **data tiles** at random from the bag and places one within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. In this phase, you may lay your tile touching another player's closed data. At no other point in the game can you do this. Add a **cone** on top of your **closed data**, to signify that you own the data.
 
-7. Shuffle the pack of **app cards** and deal eight **app cards** face down in front of each player. Place the remaining **app cards** back in the box. Each player takes two **app cards** into their hand.
+7. Shuffle the pack of **tool cards** and deal three **tool cards** to each player. Place the remaining **tool cards** on the table. Players may choose to display their **tool cards** face up on the table for other players to see, or hold them in their hand.
 
 ## Turn Taking
 
-Your hand consists of a number of **data tiles** and **app cards**. When it is your turn:
+Your hand consists of a number of **data tiles** and **tool cards**. When it is your turn:
 
 1. Select a **data tile** at random from the bag to join your hand.
 
-2. Play any **app cards** that you want to play. You may play any number of **app cards** during your turn; these remain face up in front of you to demonstrate your success. Play an **app card** by:
+2. Play any **tool cards** that you want to play. You may play any number of **tool cards** during your turn; these remain face up in front of you to demonstrate your success. Keep a tally of the points you are accumulating with each tool you complete. Play a **tool card** by:
 
-   a. placing the **app card** on the table so that it is visible to everyone
+   a. placing the **tool card** on the table so that it is visible to everyone
 
    b. placing **data tiles** from your hand needed to complete the app, either as **closed data** or as **open data** to expand the **data infrastructure**
 
-   c. placing your tokens on all the data tiles that are used to create the app
+   c. placing your cones on all the data tiles that are used to create the app
 
-   d. increasing a score on the **world board** based on the type(s) of **data tile** that you have used to build your app
+   d. increasing a score on the **world board** based on the tool you have built.
 
-3. Take a new **app card** from the pile you have in front of you.
+3. Decide whether you would like to discard any tool cards in your hand, in exchange for a new one.
 
-4. Take a new **event card** from the communal pile and adjust the **world board** accordingly.
+4. If you have completed a tool, take a new **tool card** from the deck. You should always have three **tool cards** in your hand.
+
+5. Take a new **event card** from the communal pile, follow its' instructions and adjust the **world board** accordingly.
 
 ### Negotiation
 
@@ -132,26 +144,14 @@ During your turn, you may open data that you own in the **data infrastructure** 
 During your turn, you may negotiate with any other player. You can try to persuade other players to:
 
   * give you a **data tile** (either outright or in exchange for data tiles)
-  * give you a **app card** (either outright or in exchange for data tiles)
+  * give you a **tool card** (either outright or in exchange for data tiles)
+  * agree to certain conditions that might improve your chances of completing your individual winning condition (role card)
 
-You can also negotiate with other players to open up data that they own. However, that player cannot open data tiles that they have already laid until it is their turn.
+You can also negotiate with other players to open up data that they own.
 
 Players cannot negotiate with each other unless it is their turn.
 
 You can choose what to show other players of your hand. You may play with an open hand, so that everyone can see what you have and what you need. You may play with an open hand of tools but hide which data you have. You may show some tools but not others. It is up to you.
-
-### Hacking
-
-When you play a **tool card**, you may only legally use data to create your tool if that data is:
-
-  * **open data**
-  * **closed data** that you **own** (has your counter on it)
-
-If there is some **closed data** that you want to use to build your tool and the player who **owns** that data is not paying attention, you may try to build the tool using that data. This is known as **hacking**.
-
-If you manage to build a tool including placing your token on **closed data** owned by someone else, you have **hacked** that data and are then able to use it for further tools, or open it up, exactly as if you were the original owner.
-
-The original owner may stop you from **hacking** their data at any point up to you adjusting the **world score** as a result of building the tool.
 
 ## Ending the Game
 
@@ -161,7 +161,7 @@ The game ends in three scenarios:
 
 2. The **world score** on all three impact measures increases to eight. Everyone wins.
 
-3. Any player uses all the **tool cards** from their hand, and there are no more **tool cards** in their pile. The player who has built the most tools wins.
+3. Any player reaches 10 points based on the number of **tool cards** they have completed. 
 
 ## Example of Play
 
