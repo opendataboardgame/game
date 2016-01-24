@@ -165,7 +165,7 @@ The game ends in three scenarios:
 
 ## If the world score gets to zero
 
-If the world score gets to zero on any impact measure, players have **one chance** to recover from collapse. Despite the world score being zero, the next player can take their turn as usual. All players should work with that player to try to complete a tool and rebuild the health of the world. For this one **recovery play** the health of that impact measure can be returned to three.
+If the world score gets to zero on any impact measure, players have **one chance** to recover from collapse. Despite the world score being zero, the next player can take their turn as usual. All players should work with that player to try to complete a tool and rebuild the health of the world. For this one **recovery play** the health of that impact measure can be increased to three, if a tool is successfully built.
 
 ## Example of Play
 
