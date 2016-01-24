@@ -8,9 +8,9 @@ Some elements of the game are difficult to print as presented (namely the data t
 
 Besides these things you will need:
 
-* cones or counters for 4-5 players (approximately 15 cones or counters per player)
+* cones or counters for 4-5 players in different colours (approximately 15 cones or counters per player)
 * three black counters for the world board
-* a black marker, to add **private data** dots to 2x data tiles in each colour.
+* a black marker, to add **private data** dots or stripes to 2x data tiles in each colour.
 
 ## How to create the cards
 
