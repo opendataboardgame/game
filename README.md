@@ -4,6 +4,14 @@ The Open Data Board Game is a board game built around the creation of tools usin
 
 This repo will contain all the things that are needed to create the game. It is a work in progress as we move from prototype to production.
 
+Some elements of the game are difficult to print as presented (namely the data tiles).
+
+Besides these things you will need:
+
+* cones or counters for 4-5 players (approximately 15 cones or counters per player)
+* three black counters for the world board
+* a black marker, to add **private data** dots to 2x data tiles in each colour.
+
 ## How to create the cards
 
 Assuming you already have rvm installed:
