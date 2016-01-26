@@ -111,7 +111,7 @@ Event cards reduce the health of the world, and can change the rules of the game
 
 5. Each player chooses a set of coloured tokens, called **cones**.  These **coness** are used to identify data you own within the **data infrastructure**, and which data you are using - **open data** and **closed data** - to build your tools. By the end of the game, the cones will enable you to see which data sets are most useful in the data infrastructure.
 
-6. Each player picks two **data tiles** at random from the bag and places one within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. In this phase, you may lay your tile touching another player's closed data. At no other point in the game can you do this. Add a **cone** on top of your **closed data**, to signify that you own the data.
+6. Each player picks two **data tiles** at random from the bag and places one within the **data infrastructure** connected to the central **open data** tile. This first **data tile** must be placed as **closed data** within the **data infrastructure**. Add a **cone** on top of your **closed data**, to signify that you own the data.
 
 7. Shuffle the pack of **tool cards** and deal three **tool cards** to each player. Place the remaining **tool cards** on the table. Players may choose to display their **tool cards** face up on the table for other players to see, or hold them in their hand.
 
