@@ -62,7 +62,7 @@ Some data tiles have a black spot on them. These data tiles contain **private** 
 
 You can build tools by linking different kinds of data together. Each tool that you can build is represented by a card. For example:
 
-<img src="instructions/tool-card.png" width="525">
+<img src="instructions/tool-card.png" width="210">
 
 This tool uses transport, weather and location data. Perhaps it is an application that helps people get home by an appropriate route depending on the weather: if it's sunny, it recommends they walk or cycle; if it's raining, it will help them get a taxi.
 
@@ -85,7 +85,7 @@ Building tools can help the world. When you build a new tool, you may have a soc
 
 For example, if you build the tool:
 
-<img src="instructions/tool-card.png" width="525">
+<img src="instructions/tool-card.png" width="210">
 
 you can choose to either have an economic or an environmental impact. These icons are highlighted on the card.
 
@@ -93,7 +93,7 @@ you can choose to either have an economic or an environmental impact. These icon
 
 Each turn, something happens in the world. These are represented by **event cards**, which look like:
 
-<img src="instructions/event-card.png" width="525">
+<img src="instructions/event-card.png" width="210">
 
 Event cards reduce the health of the world, and can change the rules of the game.
 
@@ -171,7 +171,7 @@ If the world score gets to zero on any impact measure, players have **one chance
 
 Ellen has the following cards in her hand:
 
-<img src="instructions/hand.png" width="525" />
+<img src="instructions/hand.png" width="315" />
 
 The data infrastructure looks like this:
 
