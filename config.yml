@@ -23,7 +23,7 @@
 #img_dir: img-bw
 
 # Use a SVG cairo back end, instead of an in-memory buffer
-# backend: :memory # default
+backend: :memory # default
 # backend: :svg    # can create scalable pdfs, but rendering done at the printer level is not as good as Cairo.
 
 # Configure what text markup uses replace characters
