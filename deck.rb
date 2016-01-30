@@ -1,5 +1,22 @@
 require 'squib'
 
+Squib::Deck.new(cards: 9, width: 1050, height: 675, layout: 'layout.yml') do
+  background color: '#FFFFFF'
+
+  roles = csv file: 'roles/missions.csv'
+
+  text str: roles['name'], layout: 'RoleName'
+  text str: roles['role'], layout: 'RoleDescription'
+  text str: "You win if", layout: 'RoleConditionTitle'
+  text str: roles['condition'], layout: 'RoleCondition'
+  text str: "Why?", layout: 'RoleWhyTitle'
+  text str: roles['why'], layout: 'RoleWhy'
+  svg file: roles['focus'].map { |i| "world-board/#{i}.svg" }, layout: 'RoleFocusIcon'
+
+  save_png prefix: 'role_'
+  save_sheet prefix: 'roles_sheet_', columns: 2, rows: 4, margin: 150, gap: 75
+end
+
 Squib::Deck.new(cards: 27, width: 1050, height: 675, layout: 'layout.yml') do
   background color: '#FFFFFF'
 

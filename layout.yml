@@ -3,6 +3,51 @@ AllText:
   align: center
   color: '#333333'
 
+RoleText:
+  extends: AllText
+  font_size: 32
+  width: 870
+  ellipsize: false
+
+RoleName:
+  extends: RoleText
+  x: 90
+  y: 60
+  font_size: 60
+
+RoleDescription:
+  extends: RoleText
+  x: 90
+  y: 180
+
+RoleConditionTitle:
+  extends: RoleText
+  x: 90
+  y: 290
+  font_size: 40
+
+RoleCondition:
+  extends: RoleText
+  x: 90
+  y: 360
+
+RoleWhyTitle:
+  extends: RoleText
+  x: 90
+  y: 470
+  font_size: 40
+
+RoleWhy:
+  extends: RoleText
+  x: 90
+  y: 540
+
+RoleFocusIcon:
+  x: 798
+  y: 30
+  width: 162
+  height: 162
+
 EventText:
   extends: AllText
   x: 90
