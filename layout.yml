@@ -1,60 +1,60 @@
 AllText:
   font: Helvetica Neue,Helvetica,Arial,Sans 72
+  x: 95
+  width: 935
   align: center
   color: '#333333'
 
 RoleText:
   extends: AllText
   font_size: 32
-  width: 870
   ellipsize: false
 
 RoleName:
   extends: RoleText
-  x: 90
-  y: 60
-  font_size: 60
+  y: 105
+  font: Helvetica Neue,Helvetica,Arial,Sans bold 68
+  font_size: 68
+
+RoleFocusIcon:
+  x: 898
+  y: 85
+  width: 162
+  height: 162
 
 RoleDescription:
   extends: RoleText
-  x: 90
-  y: 180
+  y: 215
+  height: 130
+  valign: middle
 
 RoleConditionTitle:
   extends: RoleText
-  x: 90
-  y: 290
+  y: 365
   font_size: 40
 
 RoleCondition:
   extends: RoleText
-  x: 90
-  y: 360
+  y: 435
 
 RoleWhyTitle:
   extends: RoleText
-  x: 90
-  y: 470
+  y: 545
   font_size: 40
 
 RoleWhy:
   extends: RoleText
-  x: 90
-  y: 540
-
-RoleFocusIcon:
-  x: 798
-  y: 30
-  width: 162
-  height: 162
+  y: 615
 
 EventText:
   extends: AllText
-  x: 90
-  y: 60
-  width: 828
-  height: 300
-  valign: middle
+
+EventTitle:
+  extends: EventText
+  y: 130
+  font: Helvetica Neue,Helvetica,Arial,Sans bold 68
+  font_size: 68
+  ellipsize: false
 
 EventEffect:
   extends: AllText
@@ -63,7 +63,7 @@ EventEffect:
 
 EventEffectIcon:
   extends: EventEffect
-  x: 300
+  x: 350
   width: 216
   height: 216
 
@@ -71,7 +71,20 @@ EventEffectText:
   extends: EventEffect
   font_size: 144
   font_weight: 900
-  x: 510
+  x: 560
+
+EventDescription:
+  extends: EventText
+  font_size: 60
+  width: 775
+  x: 175
+  y: 330
+  ellipsize: false
+
+EventDisclaimer:
+  extends: EventText
+  font_size: 28
+  y: 615
 
 ToolImpactIcon:
   x: 90
@@ -80,15 +93,15 @@ ToolImpactIcon:
 
 ToolImpactIcon1:
   extends: ToolImpactIcon
-  y: 100
+  y: 165
 
 ToolImpactIcon2:
   extends: ToolImpactIcon
-  y: 275
+  y: 340
 
 ToolImpactIcon3:
   extends: ToolImpactIcon
-  y: 450
+  y: 515
 
 ToolIconBase:
   extends: AllText
@@ -150,3 +163,13 @@ Tool5Icon3:
   extends: ToolIconBase
   x: 510
   y: 312
+
+ToolDescription:
+  extends: AllText
+  x: 270
+  width: 745
+  y: 580
+  height: 140
+  valign: middle
+  font_size: 32
+  ellipsize: false
