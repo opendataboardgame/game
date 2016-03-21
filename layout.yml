@@ -53,7 +53,7 @@ EventTitle:
   extends: EventText
   y: 130
   font: Helvetica Neue,Helvetica,Arial,Sans bold 68
-  font_size: 68
+  font_size: 58
   ellipsize: false
 
 EventEffect:
@@ -75,10 +75,12 @@ EventEffectText:
 
 EventDescription:
   extends: EventText
-  font_size: 60
+  font_size: 44
   width: 775
   x: 175
   y: 330
+  height: 425
+  valign: middle
   ellipsize: false
 
 EventDisclaimer:

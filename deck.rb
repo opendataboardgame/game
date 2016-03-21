@@ -25,7 +25,7 @@ Squib::Deck.new(cards: 9, width: 1125, height: 825, layout: 'layout.yml') do
   save_sheet prefix: 'roles_sheet_', columns: 2, rows: 4, margin: 105
 end
 
-Squib::Deck.new(cards: 39, width: 1125, height: 825, layout: 'layout.yml') do
+Squib::Deck.new(cards: 44, width: 1125, height: 825, layout: 'layout.yml') do
   background color: '#FFFFFF'
 
   events = csv file: 'events/events.csv'
@@ -38,9 +38,9 @@ Squib::Deck.new(cards: 39, width: 1125, height: 825, layout: 'layout.yml') do
   text range: type['role'], str: events['title'], layout: 'EventTitle'
   text range: type['role'], str: events['description'], layout: 'EventDescription'
 
-  text range: type['legislation'], str: "New legislation", layout: 'EventTitle'
-  text range: type['legislation'], str: events['title'].map { |c| "All* #{c} data must be open" }, layout: 'EventDescription'
-  text range: type['legislation'], str: "* Except private data", layout: 'EventDisclaimer'
+  # text range: type['legislation'], str: "New legislation", layout: 'EventTitle'
+  # text range: type['legislation'], str: events['title'].map { |c| "All* #{c} data must be open" }, layout: 'EventDescription'
+  # text range: type['legislation'], str: "* Except private data", layout: 'EventDisclaimer'
 
   text range: type['impact'], str: events['title'], layout: 'EventTitle'
   svg range: type['impact'], file: events['impact'].map { |i| "world-board/#{i || "Economic"}.svg" }, layout: 'EventEffectIcon'
