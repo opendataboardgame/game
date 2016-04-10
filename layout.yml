@@ -1,50 +1,124 @@
+Background:
+  width: 825
+  height: 1125
+
 AllText:
-  font: Helvetica Neue,Helvetica,Arial,Sans 72
-  x: 95
-  width: 935
+  font: Helvetica Neue,Helvetica,Sans normal 72
+  x: 76
+  width: 673
   align: center
-  color: '#333333'
+
+EconomicText:
+  color: '#722EA5'
+SocialText:
+  color: '#D60303'
+EnvironmentalText:
+  color: '#0DBC37'
 
 RoleText:
   extends: AllText
-  font_size: 32
+  font_size: 36
+  font: Helvetica Neue,Helvetica,Sans bold 36
   ellipsize: false
-
-RoleName:
-  extends: RoleText
-  y: 105
-  font: Helvetica Neue,Helvetica,Arial,Sans bold 68
-  font_size: 68
+  color: '#FFFFFF'
 
 RoleFocusIcon:
-  x: 898
-  y: 85
+  x: 334
+  y: 104
   width: 162
   height: 162
 
+RoleName:
+  extends: RoleText
+  y: 300
+  font: Helvetica Neue,Helvetica,Sans Bold 54
+  font_size: 54
+
+RoleType:
+  extends: RoleText
+  y: 368
+  font: Helvetica Neue,Helvetica,Sans normal 36
+
+RoleDescriptionBusiness1:
+  extends: RoleText
+  font: Helvetica Neue,Helvetica,Sans normal 36
+  y: 525
+
+RoleDescriptionBusinessEconomic1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - EconomicText
+RoleDescriptionBusinessSocial1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - SocialText
+RoleDescriptionBusinessEnvironmental1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - EnvironmentalText
+
+RoleDescriptionBusiness2:
+  extends: RoleText
+  y: 575
+
+RoleDescriptionBusinessEconomic2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - EconomicText
+RoleDescriptionBusinessSocial2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - SocialText
+RoleDescriptionBusinessEnvironmental2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - EnvironmentalText
+
+RoleDescriptionBusiness3:
+  extends: RoleText
+  y: 675
+
+RoleDescriptionBusinessEconomic3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - EconomicText
+RoleDescriptionBusinessSocial3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - SocialText
+RoleDescriptionBusinessEnvironmental3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - EnvironmentalText
+
 RoleDescription:
   extends: RoleText
-  y: 215
-  height: 130
+  y: 450
+  height: 412
   valign: middle
+
+RoleDescriptionEconomic:
+  extends:
+    - RoleDescription
+    - EconomicText
+RoleDescriptionSocial:
+  extends:
+    - RoleDescription
+    - SocialText
+RoleDescriptionEnvironmental:
+  extends:
+    - RoleDescription
+    - EnvironmentalText
 
 RoleConditionTitle:
   extends: RoleText
-  y: 365
-  font_size: 40
+  y: 900
 
 RoleCondition:
   extends: RoleText
-  y: 435
-
-RoleWhyTitle:
-  extends: RoleText
-  y: 545
-  font_size: 40
-
-RoleWhy:
-  extends: RoleText
-  y: 615
+  y: 945
+  font: Helvetica Neue,Helvetica,Sans normal 32
+  font_size: 32
 
 EventText:
   extends: AllText
