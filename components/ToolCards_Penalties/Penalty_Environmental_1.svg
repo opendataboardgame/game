@@ -17,25 +17,23 @@
 	.st11{fill:url(#);}
 	.st12{opacity:0.5;fill:url(#);}
 	.st13{opacity:0.2;fill:url(#);}
-	.st14{fill:#DA1A07;}
-	.st15{fill:#DF310C;}
-	.st16{fill:#E34810;}
-	.st17{fill:#E86014;}
-	.st18{fill:#EC7719;}
-	.st19{fill:#F08E1D;}
-	.st20{fill:#F5A522;}
-	.st21{fill:#D60303;}
-	.st22{display:none;}
-	.st23{display:inline;}
-	.st24{fill:#00ADEE;}
-	.st25{fill:#E6007C;}
-	.st26{fill:#178CFF;}
-	.st27{fill:none;stroke:#1E1E1E;stroke-width:72;stroke-miterlimit:10;}
-	.st28{fill:#2F529F;}
-	.st29{fill:#38DEF9;}
-	.st30{fill:#FF6700;}
-	.st31{fill:#67EF67;}
-	.st32{fill:none;stroke:#999999;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{opacity:0.1;fill:url(#);}
+	.st15{fill:#F5A522;}
+	.st16{fill:#DA1A07;}
+	.st17{fill:#DF310C;}
+	.st18{fill:#E34810;}
+	.st19{fill:#E86014;}
+	.st20{fill:#EC7719;}
+	.st21{fill:#F08E1D;}
+	.st22{fill:#D60303;}
+	.st23{fill:#E6007C;}
+	.st24{fill:#178CFF;}
+	.st25{fill:none;stroke:#999999;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st26{fill:#2F529F;}
+	.st27{fill:#38DEF9;}
+	.st28{fill:#FF6700;}
+	.st29{fill:#67EF67;}
+	.st30{fill:#00ACE8;}
 </style>
 <pattern  x="522" y="-279" width="69" height="69" patternUnits="userSpaceOnUse" id="Unnamed_Pattern" viewBox="2.125 -70.896 69 69" style="overflow:visible;">
 	<g>
@@ -984,16 +982,12 @@
 </g>
 <g id="typography">
 </g>
-<g id="safe-zone" class="st22">
-</g>
-<g id="trim" class="st22">
-</g>
 <g id="icons">
 	<g>
 		<g>
 			<g>
 				<g>
-					<circle class="st8" cx="18" cy="18" r="18"/>
+					<circle class="st24" cx="18" cy="18" r="18"/>
 				</g>
 			</g>
 		</g>
@@ -1004,12 +998,8 @@
 		</g>
 	</g>
 </g>
-<g id="Layer_1">
-</g>
 <g id="symbols">
 </g>
-<g id="line_graph">
-</g>
-<g id="controls">
+<g id="grid">
 </g>
 </svg>
