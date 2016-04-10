@@ -142,9 +142,9 @@ EventScoreIcon:
 
 EventLogoPaper:
   y: 265
-  x: 245
-  width: 335
-  height: 99
+  x: 208.5
+  width: 408
+  height: 173
 
 EventImpactTitle:
   extends: EventText
@@ -159,9 +159,9 @@ EventImpactDescription:
 
 EventLogoCouncil:
   y: 120
-  x: 205
-  width: 415
-  height: 88
+  x: 168.5
+  width: 488
+  height: 162
 
 EventMediaImpact:
   extends: EventIcon

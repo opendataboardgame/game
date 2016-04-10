@@ -78,12 +78,12 @@ Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
   svg range: score['-1'], file: events['impact'].map { |i| "components/ToolCards_Penalties/Penalty_#{i || "Economic"}_1.svg" }, layout: 'EventScoreIcon'
   svg range: score['-2'], file: events['impact'].map { |i| "components/ToolCards_Penalties/Penalty_#{i || "Economic"}_2.svg" }, layout: 'EventScoreIcon'
 
-  svg range: type['impact'], file: "components/EventCards_Logos/EventCard_Logo_Evening Echo Logo.svg", layout: 'EventLogoPaper'
+  png range: type['impact'], file: "components/EventCards_Logos/EventCard_Logo_Evening Echo Logo.png", layout: 'EventLogoPaper'
 
   text range: type['impact'], str: events['title'], layout: 'EventImpactTitle'
   text range: type['impact'], str: events['description'], layout: 'EventImpactDescription'
 
-  svg range: type['media'], file: "components/EventCards_Logos/EventCard_Logo_Mayors Office Logo.svg", layout: 'EventLogoCouncil'
+  png range: type['media'], file: "components/EventCards_Logos/EventCard_Logo_Mayors Office Logo.png", layout: 'EventLogoCouncil'
   svg range: type['media'], file: events['impact'].map { |i| "components/ToolCards_Icons/#{i || "Economic"}_Icon_Active.svg" }, layout: 'EventMediaImpact'
   text range: type['media'], str: "Media release", layout: 'EventMediaTitle'
   text range: type['media'], str: events['title'], layout: 'EventMediaSubtitle'
