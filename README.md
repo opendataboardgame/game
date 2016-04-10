@@ -19,7 +19,7 @@ Assuming you already have rvm installed:
 ```
 $ rvm use 2.2
 $ bundle install
-$ rake
+$ bundle exec rake
 ```
 
 Look in the `_output` folder for the generated cards.
