@@ -4,8 +4,8 @@ Background:
 
 AllText:
   font: Helvetica Neue,Helvetica,Sans normal 72
-  x: 76
-  width: 673
+  x: 78
+  width: 669
   align: center
 
 EconomicText:
@@ -122,24 +122,74 @@ RoleCondition:
 
 EventText:
   extends: AllText
-
-EventTitle:
-  extends: EventText
-  y: 130
-  font: Helvetica Neue,Helvetica,Arial,Sans bold 68
-  font_size: 58
+  font_size: 27
+  font: Helvetica Neue,Helvetica,Sans normal 27
   ellipsize: false
+  color: '#FFFFFF'
+
+EventIcon:
+  y: 105
+  width: 120
+  height: 120  
+
+EventEffectIcon:
+  extends: EventIcon
+  x: 279
+
+EventScoreIcon:
+  extends: EventIcon
+  x: 426
+
+EventLogoPaper:
+  y: 265
+  x: 245
+  width: 335
+  height: 99
+
+EventImpactTitle:
+  extends: EventText
+  y: 410
+  font: Helvetica Neue,Helvetica,Sans bold 45
+  font_size: 45
+  ellipsize: false
+
+EventImpactDescription:
+  extends: EventText
+  y: 600
+
+EventLogoCouncil:
+  y: 120
+  x: 205
+  width: 415
+  height: 88
+
+EventMediaImpact:
+  extends: EventIcon
+  y: 316
+  x: 352.5
+
+EventMediaTitle:
+  extends: EventText
+  color: '#000000'
+  y: 485
+  font: Helvetica Neue,Helvetica,Sans bold 45
+  font_size: 45
+  ellipsize: false
+
+EventMediaSubtitle:
+  extends: EventText
+  font: Helvetica Neue,Helvetica,Sans bold 27
+  font_size: 27
+  y: 540
+
+EventMediaDescription:
+  extends: EventText
+  y: 705
 
 EventEffect:
   extends: AllText
   y: 390
   align: left
-
-EventEffectIcon:
-  extends: EventEffect
-  x: 350
-  width: 216
-  height: 216
 
 EventEffectText:
   extends: EventEffect
@@ -147,20 +197,15 @@ EventEffectText:
   font_weight: 900
   x: 560
 
-EventDescription:
+EventCrisisTitle:
   extends: EventText
-  font_size: 44
-  width: 775
-  x: 175
-  y: 330
-  height: 425
-  valign: middle
-  ellipsize: false
+  y: 300
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  font_size: 54
 
-EventDisclaimer:
+EventCrisisDescription:
   extends: EventText
-  font_size: 28
-  y: 615
+  y: 525
 
 ToolImpactIcon:
   x: 90
