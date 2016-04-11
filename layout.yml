@@ -207,90 +207,94 @@ EventCrisisDescription:
   extends: EventText
   y: 525
 
+ToolCategory:
+  extends: AllText
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  font_size: 54
+  color: '#FFFFFF'
+  y: 118
+
+ToolDescription:
+  extends: AllText
+  y: 225
+  font: Helvetica Neue,Helvetica,Sans normal 27
+  font_size: 27
+  ellipsize: false
+
 ToolImpactIcon:
-  x: 90
-  width: 162
-  height: 162
+  y: 895
+  width: 120
+  height: 120
 
 ToolImpactIcon1:
   extends: ToolImpactIcon
-  y: 165
+  x: 182.5
 
 ToolImpactIcon2:
   extends: ToolImpactIcon
-  y: 340
+  x: 352.5
 
 ToolImpactIcon3:
   extends: ToolImpactIcon
-  y: 515
+  x: 522.5
 
 ToolIconBase:
   extends: AllText
-  width: 216
-  height: 216
-  y: 229
+  width: 224
+  height: 256
+  y: 450
   valign: middle
 
 ToolIcon:
   extends: ToolIconBase
-  x: 498
+  x: 300.5
 
 Tool2Icon1:
   extends: ToolIconBase
-  x: 400
+  x: 188.5
 
 Tool2Icon2:
   extends: ToolIconBase
-  x: 620
+  x: 412.5
 
 Tool3Icon1:
   extends: ToolIconBase
-  x: 292
+  x: 76.5
 
 Tool3Icon2:
   extends: ToolIconBase
-  x: 512
+  x: 300.5
 
 Tool3Icon3:
   extends: ToolIconBase
-  x: 732
+  x: 524.5
 
 Tool4Icon1:
   extends: ToolIconBase
-  x: 346
-  y: 146
+  x: 132.5
+  y: 371
 
 Tool4Icon2:
   extends: ToolIconBase
-  x: 566
-  y: 146
+  x: 356.5
+  y: 371
 
 Tool4Icon3:
   extends: ToolIconBase
-  x: 678
-  y: 312
+  x: 468.5
+  y: 565
 
 Tool5Icon1:
   extends: ToolIconBase
-  x: 400
-  y: 146
+  x: 188.5
+  y: 371
 
 Tool5Icon2:
   extends: ToolIconBase
-  x: 620
-  y: 146
+  x: 412.5
+  y: 371
 
 Tool5Icon3:
   extends: ToolIconBase
-  x: 510
-  y: 312
-
-ToolDescription:
-  extends: AllText
-  x: 270
-  width: 745
-  y: 580
-  height: 140
-  valign: middle
-  font_size: 32
-  ellipsize: false
+  x: 300.5
+  y: 565
