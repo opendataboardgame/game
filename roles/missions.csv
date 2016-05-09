@@ -5,6 +5,6 @@ Agribusiness,business,Environmental,"you can only build tools that help the envi
 Trade Body,third-sector,Economic,keep the economy score up,"at the end of the game, the economy score is the highest",because everyone prospers when there's a sound economy
 Charity,third-sector,Social,keep the social score up,"at the end of the game, the social score is the highest",because we need to be kind to each other
 Ecoactivist,third-sector,Environmental,keep the environment score up,"at the end of the game, the environment score is the highest",because climate change
-Economist,public-sector,Economic,encourage the availability of economic data,"at the end of the game, over half the economic data is open",because you care about what happens next with the economy
-Demographer,public-sector,Social,encourage the availability of social data,"at the end of the game, over half the social data is open",because you want to learn how society works
-Scientist,public-sector,Environmental,encourage the availability of environmental data,"at the end of the game, over half the environmental data is open",because you want to measure the world
+Economist,public-sector,Economic,encourage the availability of economic data,"at the end of the game, all the economic data that can be is open",because you care about what happens next with the economy
+Demographer,public-sector,Social,encourage the availability of social data,"at the end of the game, all the social data that can be is open",because you want to learn how society works
+Scientist,public-sector,Environmental,encourage the availability of environmental data,"at the end of the game, all the environmental data that can be is open",because you want to measure the world

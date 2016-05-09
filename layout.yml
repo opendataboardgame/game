@@ -8,6 +8,115 @@ AllText:
   width: 669
   align: center
 
+TodoText:
+  font: Helvetica Neue,Helvetica,Sans bold 30
+  x: 225
+  color: '#FFFFFF'
+
+TodoSubText:
+  font: Helvetica Neue,Helvetica,Sans normal 24
+  x: 260
+  color: '#FFFFFF'
+
+TodoTitle:
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  x: 260
+  y: 110
+  color: '#FFFFFF'
+
+TodoCheck:
+  x: 125
+  height: 100
+  width: 100
+
+Todo1:
+  extends: TodoText
+  y: 215
+
+TodoSub1:
+  extends: TodoSubText
+  y: 255
+
+TodoCheck1:
+  extends: TodoCheck
+  y: 195
+
+Todo2:
+  extends: TodoText
+  y: 327
+
+TodoSub2:
+  extends: TodoSubText
+  y: 367
+
+TodoCheck2:
+  extends: TodoCheck
+  y: 307
+
+Todo3:
+  extends: TodoText
+  y: 439
+  x: 260
+
+TodoSub3:
+  extends: TodoSubText
+  y: 479
+  x: 295
+
+TodoCheck3:
+  extends: TodoCheck
+  y: 419
+
+Todo4:
+  extends: TodoText
+  y: 551
+  x: 260
+
+TodoSub4:
+  extends: TodoSubText
+  y: 591
+  x: 295
+
+TodoCheck4:
+  extends: TodoCheck
+  y: 531
+
+Todo5:
+  extends: TodoText
+  y: 663
+
+TodoSub5:
+  extends: TodoSubText
+  y: 703
+
+TodoCheck5:
+  extends: TodoCheck
+  y: 643
+
+Todo6:
+  extends: TodoText
+  y: 775
+
+TodoSub6:
+  extends: TodoSubText
+  y: 815
+
+TodoCheck6:
+  extends: TodoCheck
+  y: 755
+
+Todo7:
+  extends: TodoText
+  y: 887
+
+TodoSub7:
+  extends: TodoSubText
+  y: 927
+
+TodoCheck7:
+  extends: TodoCheck
+  y: 867
+
 EconomicText:
   color: '#722EA5'
 SocialText:
@@ -76,7 +185,7 @@ RoleDescriptionBusinessEnvironmental2:
 
 RoleDescriptionBusiness3:
   extends: RoleText
-  y: 675
+  y: 695
 
 RoleDescriptionBusinessEconomic3:
   extends: 
@@ -151,6 +260,11 @@ EventImpactTitle:
   y: 410
   font: Helvetica Neue,Helvetica,Sans bold 45
   font_size: 45
+  ellipsize: false
+
+EventImpactSubtitle:
+  extends: EventText
+  y: 500
   ellipsize: false
 
 EventImpactDescription:

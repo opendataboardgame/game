@@ -7,6 +7,38 @@ require 'squib'
 # 8.3" - (3.75" x 2) = 0.8"
 # 11.7" - (2.75" x 4) = 0.7"
 
+Squib::Deck.new(cards: 1, width: 825, height: 1125, layout: 'layout.yml') do
+  background color: '#FFFFFF'
+
+  png file: "components/Card_Backgrounds/Mission_Back_BG.png", layout: 'Background'
+  # png file: "templates/pokercard-portrait.png"
+  
+  text str: "Todo list", layout: 'TodoTitle'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck1'
+  text str: "1 Take a data tile", layout: 'Todo1'
+  text str: "(no peeking!)", layout: 'TodoSub1'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck2'
+  text str: "2 Build tools", layout: 'Todo2'
+  text str: "(lay data tiles and negotiate!)", layout: 'TodoSub2'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck3'
+  text str: "A Place use markers", layout: 'Todo3'
+  text str: "(over each data tile you use)", layout: 'TodoSub3'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck4'
+  text str: "B Name your creation", layout: 'Todo4'
+  text str: "(use your imagination!)", layout: 'TodoSub4'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck5'
+  text str: "3 Draw an event card", layout: 'Todo5'
+  text str: "(full version only)", layout: 'TodoSub5'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck6'
+  text str: "4 Discard one tool card", layout: 'Todo6'
+  text str: "(optional)", layout: 'TodoSub6'
+  svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck7'
+  text str: "5 Draw new tool cards", layout: 'Todo7'
+  text str: "(so you have three in your hand)", layout: 'TodoSub7'
+
+  save_png prefix: 'todo_'
+end
+
 Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   background color: '#FFFFFF'
 
@@ -24,7 +56,7 @@ Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   svg range: focus['Social'], file: "components/ToolCards_Icons/Social_Icon_Active.svg", layout: 'RoleFocusIcon'
   svg range: focus['Environmental'], file: "components/ToolCards_Icons/Environmental_Icon_Active.svg", layout: 'RoleFocusIcon'
 
-  png file: "templates/pokercard-portrait.png"
+  # png file: "templates/pokercard-portrait.png"
   
   text str: roles['name'], layout: 'RoleName'
   text range: type['business'], str: "BUSINESS", layout: 'RoleType'
@@ -35,9 +67,9 @@ Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   text range: 1, str: "You can only build tools that", layout: 'RoleDescriptionBusinessSocial1'
   text range: 2, str: "You can only build tools that", layout: 'RoleDescriptionBusinessEnvironmental1'
 
-  text range: 0, str: "help the economy", layout: 'RoleDescriptionBusinessEconomic2'
-  text range: 1, str: "help people", layout: 'RoleDescriptionBusinessSocial2'
-  text range: 2, str: "help the environment", layout: 'RoleDescriptionBusinessEnvironmental2'
+  text range: 0, str: "help the economy and people", layout: 'RoleDescriptionBusinessEconomic2'
+  text range: 1, str: "help people and the environment", layout: 'RoleDescriptionBusinessSocial2'
+  text range: 2, str: "help the environment and the economy", layout: 'RoleDescriptionBusinessEnvironmental2'
 
   text range: 0, str: "Only open data as part of a deal", layout: 'RoleDescriptionBusinessEconomic3'
   text range: 1, str: "Only open data as part of a deal", layout: 'RoleDescriptionBusinessSocial3'
@@ -51,7 +83,7 @@ Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   text str: roles['condition'], layout: 'RoleCondition'
 
   save_png prefix: 'role_'
-  save_sheet prefix: 'roles_sheet_', columns: 2, rows: 4, margin: 105
+  save_sheet prefix: 'roles_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
 end
 
 Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
@@ -72,7 +104,7 @@ Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
   png range: impact['Social'], file: "components/Card_Backgrounds/Event_Social_Front_BG.png", layout: 'Background'
   png range: impact['Environmental'], file: "components/Card_Backgrounds/Event_Environment_Front_BG.png", layout: 'Background'
 
-  png file: "templates/pokercard-portrait.png"
+  # png file: "templates/pokercard-portrait.png"
 
   svg range: type['impact'], file: events['impact'].map { |i| "components/ToolCards_Icons/#{i || "Economic"}_Icon_Active.svg" }, layout: 'EventEffectIcon'
   svg range: score['-1'], file: events['impact'].map { |i| "components/ToolCards_Penalties/Penalty_#{i || "Economic"}_1.svg" }, layout: 'EventScoreIcon'
@@ -81,6 +113,7 @@ Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
   png range: type['impact'], file: "components/EventCards_Logos/EventCard_Logo_Evening Echo Logo.png", layout: 'EventLogoPaper'
 
   text range: type['impact'], str: events['title'], layout: 'EventImpactTitle'
+  text range: type['impact'], str: events['subtitle'], layout: 'EventImpactSubtitle'
   text range: type['impact'], str: events['description'], layout: 'EventImpactDescription'
 
   png range: type['media'], file: "components/EventCards_Logos/EventCard_Logo_Mayors Office Logo.png", layout: 'EventLogoCouncil'
@@ -93,7 +126,7 @@ Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
   text range: type['crisis'], str: events['description'], layout: 'EventCrisisDescription'
 
   save_png prefix: 'event_'
-  save_sheet prefix: 'events_sheet_', columns: 2, rows: 4, margin: 105
+  save_sheet prefix: 'events_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
 end
 
 Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
@@ -118,7 +151,7 @@ Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
 
   png file: "components/Card_Backgrounds/ToolRecipe_Front_BG.png", layout: 'Background'
 
-  png file: "templates/pokercard-portrait.png"
+  # png file: "templates/pokercard-portrait.png"
 
   text str: tools['category'], layout: 'ToolCategory'
   text str: tools['description'], layout: 'ToolDescription'
@@ -145,6 +178,6 @@ Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
   svg file: economic.map { |i| i ? "components/ToolCards_Icons/Economic_Icon_Active.svg" : "components/ToolCards_Icons/Economic_Icon_Inactive.svg" }, layout: 'ToolImpactIcon3'
 
   save_png prefix: 'tool_'
-  save_sheet prefix: 'tools_sheet_', columns: 2, rows: 4, margin: 105
-  hand file: 'tools.png', range: [59,46], angle_range: (Math::PI / -4.0)..0, trim: 38, trim_radius: 38, fill_color: '#0000'
+  save_sheet prefix: 'tools_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
+  hand file: 'tools.png', range: [59,46], angle_range: (Math::PI / -4.0)..0, trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
 end
