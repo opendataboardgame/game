@@ -83,6 +83,9 @@ Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   text str: roles['condition'], layout: 'RoleCondition'
 
   save_png prefix: 'role_'
+  hand file: 'business-role-example.png', range: [0], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+  hand file: 'third-sector-role-example.png', range: [4], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+  hand file: 'public-sector-role-example.png', range: [8], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
   save_sheet prefix: 'roles_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
 end
 
@@ -126,6 +129,9 @@ Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
   text range: type['crisis'], str: events['description'], layout: 'EventCrisisDescription'
 
   save_png prefix: 'event_'
+  hand file: 'impact-event-example.png', range: [impact['Economic'][7]], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+  hand file: 'media-event-example.png', range: [type['media'][0]], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+  hand file: 'crisis-event-example.png', range: [type['crisis'][0]], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
   save_sheet prefix: 'events_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
 end
 
@@ -179,5 +185,16 @@ Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
 
   save_png prefix: 'tool_'
   save_sheet prefix: 'tools_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
+  hand file: 'tool-example.png', range: [59], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
   hand file: 'tools.png', range: [59,46], angle_range: (Math::PI / -4.0)..0, trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+end
+
+Squib::Deck.new(cards: 1, width: 825, height: 1125, layout: 'layout.yml') do
+  png file: "components/Card_Backgrounds/ToolRecipe_Back.png", layout: 'Background'
+  hand file: 'tool-back-example.png', range: [0], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
+end
+
+Squib::Deck.new(cards: 1, width: 825, height: 1125, layout: 'layout.yml') do
+  png file: "components/Card_Backgrounds/Event_Back.png", layout: 'Background'
+  hand file: 'event-back-example.png', range: [0], angle_range: [0], trim: 37.5, trim_radius: 37.5, fill_color: '#0000'
 end
