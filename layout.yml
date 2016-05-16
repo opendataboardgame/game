@@ -1,107 +1,414 @@
+Background:
+  width: 825
+  height: 1125
+
 AllText:
-  font: Helvetica Neue,Helvetica,Arial,Sans 72
+  font: Helvetica Neue,Helvetica,Sans normal 72
+  x: 78
+  width: 669
   align: center
-  color: '#333333'
+
+TodoText:
+  font: Helvetica Neue,Helvetica,Sans bold 30
+  x: 225
+  color: '#FFFFFF'
+
+TodoSubText:
+  font: Helvetica Neue,Helvetica,Sans normal 24
+  x: 260
+  color: '#FFFFFF'
+
+TodoTitle:
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  x: 260
+  y: 110
+  color: '#FFFFFF'
+
+TodoCheck:
+  x: 125
+  height: 100
+  width: 100
+
+Todo1:
+  extends: TodoText
+  y: 215
+
+TodoSub1:
+  extends: TodoSubText
+  y: 255
+
+TodoCheck1:
+  extends: TodoCheck
+  y: 195
+
+Todo2:
+  extends: TodoText
+  y: 327
+
+TodoSub2:
+  extends: TodoSubText
+  y: 367
+
+TodoCheck2:
+  extends: TodoCheck
+  y: 307
+
+Todo3:
+  extends: TodoText
+  y: 439
+  x: 260
+
+TodoSub3:
+  extends: TodoSubText
+  y: 479
+  x: 295
+
+TodoCheck3:
+  extends: TodoCheck
+  y: 419
+
+Todo4:
+  extends: TodoText
+  y: 551
+  x: 260
+
+TodoSub4:
+  extends: TodoSubText
+  y: 591
+  x: 295
+
+TodoCheck4:
+  extends: TodoCheck
+  y: 531
+
+Todo5:
+  extends: TodoText
+  y: 663
+
+TodoSub5:
+  extends: TodoSubText
+  y: 703
+
+TodoCheck5:
+  extends: TodoCheck
+  y: 643
+
+Todo6:
+  extends: TodoText
+  y: 775
+
+TodoSub6:
+  extends: TodoSubText
+  y: 815
+
+TodoCheck6:
+  extends: TodoCheck
+  y: 755
+
+Todo7:
+  extends: TodoText
+  y: 887
+
+TodoSub7:
+  extends: TodoSubText
+  y: 927
+
+TodoCheck7:
+  extends: TodoCheck
+  y: 867
+
+EconomicText:
+  color: '#722EA5'
+SocialText:
+  color: '#D60303'
+EnvironmentalText:
+  color: '#0DBC37'
+
+RoleText:
+  extends: AllText
+  font_size: 36
+  font: Helvetica Neue,Helvetica,Sans bold 36
+  ellipsize: false
+  color: '#FFFFFF'
+
+RoleFocusIcon:
+  x: 334
+  y: 104
+  width: 162
+  height: 162
+
+RoleName:
+  extends: RoleText
+  y: 300
+  font: Helvetica Neue,Helvetica,Sans Bold 54
+  font_size: 54
+
+RoleType:
+  extends: RoleText
+  y: 368
+  font: Helvetica Neue,Helvetica,Sans normal 36
+
+RoleDescriptionBusiness1:
+  extends: RoleText
+  font: Helvetica Neue,Helvetica,Sans normal 36
+  y: 525
+
+RoleDescriptionBusinessEconomic1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - EconomicText
+RoleDescriptionBusinessSocial1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - SocialText
+RoleDescriptionBusinessEnvironmental1:
+  extends: 
+    - RoleDescriptionBusiness1
+    - EnvironmentalText
+
+RoleDescriptionBusiness2:
+  extends: RoleText
+  y: 575
+
+RoleDescriptionBusinessEconomic2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - EconomicText
+RoleDescriptionBusinessSocial2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - SocialText
+RoleDescriptionBusinessEnvironmental2:
+  extends: 
+    - RoleDescriptionBusiness2
+    - EnvironmentalText
+
+RoleDescriptionBusiness3:
+  extends: RoleText
+  y: 695
+
+RoleDescriptionBusinessEconomic3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - EconomicText
+RoleDescriptionBusinessSocial3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - SocialText
+RoleDescriptionBusinessEnvironmental3:
+  extends: 
+    - RoleDescriptionBusiness3
+    - EnvironmentalText
+
+RoleDescription:
+  extends: RoleText
+  y: 450
+  height: 412
+  valign: middle
+
+RoleDescriptionEconomic:
+  extends:
+    - RoleDescription
+    - EconomicText
+RoleDescriptionSocial:
+  extends:
+    - RoleDescription
+    - SocialText
+RoleDescriptionEnvironmental:
+  extends:
+    - RoleDescription
+    - EnvironmentalText
+
+RoleConditionTitle:
+  extends: RoleText
+  y: 900
+
+RoleCondition:
+  extends: RoleText
+  y: 945
+  font: Helvetica Neue,Helvetica,Sans normal 32
+  font_size: 32
 
 EventText:
   extends: AllText
-  x: 90
-  y: 60
-  width: 828
-  height: 300
-  valign: middle
+  font_size: 27
+  font: Helvetica Neue,Helvetica,Sans normal 27
+  ellipsize: false
+  color: '#FFFFFF'
+
+EventIcon:
+  y: 105
+  width: 120
+  height: 120  
+
+EventEffectIcon:
+  extends: EventIcon
+  x: 279
+
+EventScoreIcon:
+  extends: EventIcon
+  x: 426
+
+EventLogoPaper:
+  y: 265
+  x: 208.5
+  width: 408
+  height: 173
+
+EventImpactTitle:
+  extends: EventText
+  y: 410
+  font: Helvetica Neue,Helvetica,Sans bold 45
+  font_size: 45
+  ellipsize: false
+
+EventImpactSubtitle:
+  extends: EventText
+  y: 500
+  ellipsize: false
+
+EventImpactDescription:
+  extends: EventText
+  y: 600
+
+EventLogoCouncil:
+  y: 120
+  x: 168.5
+  width: 488
+  height: 162
+
+EventMediaImpact:
+  extends: EventIcon
+  y: 316
+  x: 352.5
+
+EventMediaTitle:
+  extends: EventText
+  color: '#000000'
+  y: 485
+  font: Helvetica Neue,Helvetica,Sans bold 45
+  font_size: 45
+  ellipsize: false
+
+EventMediaSubtitle:
+  extends: EventText
+  font: Helvetica Neue,Helvetica,Sans bold 27
+  font_size: 27
+  y: 540
+
+EventMediaDescription:
+  extends: EventText
+  y: 705
 
 EventEffect:
   extends: AllText
   y: 390
   align: left
 
-EventEffectIcon:
-  extends: EventEffect
-  x: 300
-  width: 216
-  height: 216
-
 EventEffectText:
   extends: EventEffect
   font_size: 144
   font_weight: 900
-  x: 510
+  x: 560
+
+EventCrisisTitle:
+  extends: EventText
+  y: 300
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  font_size: 54
+
+EventCrisisDescription:
+  extends: EventText
+  y: 525
+
+ToolCategory:
+  extends: AllText
+  font: Helvetica Neue,Helvetica,Sans bold 54
+  font_size: 54
+  color: '#FFFFFF'
+  y: 118
+
+ToolDescription:
+  extends: AllText
+  y: 225
+  font: Helvetica Neue,Helvetica,Sans normal 27
+  font_size: 27
+  ellipsize: false
 
 ToolImpactIcon:
-  x: 90
-  width: 162
-  height: 162
+  y: 895
+  width: 120
+  height: 120
 
 ToolImpactIcon1:
   extends: ToolImpactIcon
-  y: 100
+  x: 182.5
 
 ToolImpactIcon2:
   extends: ToolImpactIcon
-  y: 275
+  x: 352.5
 
 ToolImpactIcon3:
   extends: ToolImpactIcon
-  y: 450
+  x: 522.5
 
 ToolIconBase:
   extends: AllText
-  width: 216
-  height: 216
-  y: 229
+  width: 224
+  height: 256
+  y: 450
   valign: middle
 
 ToolIcon:
   extends: ToolIconBase
-  x: 498
+  x: 300.5
 
 Tool2Icon1:
   extends: ToolIconBase
-  x: 400
+  x: 188.5
 
 Tool2Icon2:
   extends: ToolIconBase
-  x: 620
+  x: 412.5
 
 Tool3Icon1:
   extends: ToolIconBase
-  x: 292
+  x: 76.5
 
 Tool3Icon2:
   extends: ToolIconBase
-  x: 512
+  x: 300.5
 
 Tool3Icon3:
   extends: ToolIconBase
-  x: 732
+  x: 524.5
 
 Tool4Icon1:
   extends: ToolIconBase
-  x: 346
-  y: 146
+  x: 132.5
+  y: 371
 
 Tool4Icon2:
   extends: ToolIconBase
-  x: 566
-  y: 146
+  x: 356.5
+  y: 371
 
 Tool4Icon3:
   extends: ToolIconBase
-  x: 678
-  y: 312
+  x: 468.5
+  y: 565
 
 Tool5Icon1:
   extends: ToolIconBase
-  x: 400
-  y: 146
+  x: 188.5
+  y: 371
 
 Tool5Icon2:
   extends: ToolIconBase
-  x: 620
-  y: 146
+  x: 412.5
+  y: 371
 
 Tool5Icon3:
   extends: ToolIconBase
-  x: 510
-  y: 312
+  x: 300.5
+  y: 565
