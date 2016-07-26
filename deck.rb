@@ -16,25 +16,25 @@ Squib::Deck.new(cards: 1, width: 825, height: 1125, layout: 'layout.yml') do
   text str: "Todo list", layout: 'TodoTitle'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck1'
   text str: "1 Take a data tile", layout: 'Todo1'
-  text str: "(no peeking!)", layout: 'TodoSub1'
+  text str: "no peeking!", layout: 'TodoSub1'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck2'
   text str: "2 Build tools", layout: 'Todo2'
-  text str: "(lay data tiles and negotiate!)", layout: 'TodoSub2'
+  text str: "lay data tiles and negotiate!", layout: 'TodoSub2'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck3'
   text str: "A Place use markers", layout: 'Todo3'
-  text str: "(over each data tile you use)", layout: 'TodoSub3'
+  text str: "over each data tile you use", layout: 'TodoSub3'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck4'
   text str: "B Name your creation", layout: 'Todo4'
-  text str: "(use your imagination!)", layout: 'TodoSub4'
+  text str: "use your imagination!", layout: 'TodoSub4'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck5'
-  text str: "3 Draw an event card", layout: 'Todo5'
-  text str: "(full version only)", layout: 'TodoSub5'
+  text str: "3 Discard one tool card", layout: 'Todo5'
+  text str: "if you want to", layout: 'TodoSub5'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck6'
-  text str: "4 Discard one tool card", layout: 'Todo6'
-  text str: "(optional)", layout: 'TodoSub6'
+  text str: "4 Draw new tool cards", layout: 'Todo6'
+  text str: "so you have three in your hand", layout: 'TodoSub6'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck7'
-  text str: "5 Draw new tool cards", layout: 'Todo7'
-  text str: "(so you have three in your hand)", layout: 'TodoSub7'
+  text str: "5 Draw an event card", layout: 'Todo7'
+  text str: "only in the full version", layout: 'TodoSub7'
 
   save_png prefix: 'todo_'
 end
@@ -89,7 +89,7 @@ Squib::Deck.new(cards: 9, width: 825, height: 1125, layout: 'layout.yml') do
   save_sheet prefix: 'roles_sheet_', columns: 4, rows: 2, margin: 105, trim: 37.5
 end
 
-Squib::Deck.new(cards: 44, width: 825, height: 1125, layout: 'layout.yml') do
+Squib::Deck.new(cards: 39, width: 825, height: 1125, layout: 'layout.yml') do
   background color: '#FFFFFF'
 
   events = csv file: 'events/events.csv'
