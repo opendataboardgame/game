@@ -3,25 +3,25 @@ Background:
   height: 1125
 
 AllText:
-  font: Helvetica Neue,Helvetica,Sans normal 72
+  font: HelveticaNeue Normal 9
   x: 78
   width: 669
   align: center
 
 TodoText:
-  font: Helvetica Neue,Helvetica,Sans bold 30
+  font: HelveticaNeue Normal 9
   x: 225
   color: '#FFFFFF'
 
 TodoSubText:
-  font: Helvetica Neue,Helvetica,Sans normal 24
+  font: HelveticaNeue Light 8
   x: 260
   color: '#FFFFFF'
 
 TodoTitle:
-  font: Helvetica Neue,Helvetica,Sans bold 54
+  font: HelveticaNeue Normal 16
   x: 260
-  y: 110
+  y: 100
   color: '#FFFFFF'
 
 TodoCheck:
@@ -31,7 +31,7 @@ TodoCheck:
 
 Todo1:
   extends: TodoText
-  y: 215
+  y: 210
 
 TodoSub1:
   extends: TodoSubText
@@ -43,7 +43,7 @@ TodoCheck1:
 
 Todo2:
   extends: TodoText
-  y: 327
+  y: 322
 
 TodoSub2:
   extends: TodoSubText
@@ -55,7 +55,7 @@ TodoCheck2:
 
 Todo3:
   extends: TodoText
-  y: 439
+  y: 434
   x: 260
 
 TodoSub3:
@@ -69,7 +69,7 @@ TodoCheck3:
 
 Todo4:
   extends: TodoText
-  y: 551
+  y: 546
   x: 260
 
 TodoSub4:
@@ -83,7 +83,7 @@ TodoCheck4:
 
 Todo5:
   extends: TodoText
-  y: 663
+  y: 658
 
 TodoSub5:
   extends: TodoSubText
@@ -95,7 +95,7 @@ TodoCheck5:
 
 Todo6:
   extends: TodoText
-  y: 775
+  y: 770
 
 TodoSub6:
   extends: TodoSubText
@@ -107,7 +107,7 @@ TodoCheck6:
 
 Todo7:
   extends: TodoText
-  y: 887
+  y: 882
 
 TodoSub7:
   extends: TodoSubText
@@ -126,8 +126,8 @@ EnvironmentalText:
 
 RoleText:
   extends: AllText
-  font_size: 36
-  font: Helvetica Neue,Helvetica,Sans bold 36
+  font_size: 12
+  font: HelveticaNeue Normal 12
   ellipsize: false
   color: '#FFFFFF'
 
@@ -140,17 +140,17 @@ RoleFocusIcon:
 RoleName:
   extends: RoleText
   y: 300
-  font: Helvetica Neue,Helvetica,Sans Bold 54
-  font_size: 54
+  font: HelveticaNeue Normal 18
+  font_size: 16
 
 RoleType:
   extends: RoleText
-  y: 368
-  font: Helvetica Neue,Helvetica,Sans normal 36
+  y: 380
+  font: HelveticaNeue Light 16
 
 RoleDescriptionBusiness1:
   extends: RoleText
-  font: Helvetica Neue,Helvetica,Sans normal 36
+  font: HelveticaNeue Light 12
   y: 525
 
 RoleDescriptionBusinessEconomic1:
@@ -225,14 +225,14 @@ RoleConditionTitle:
 
 RoleCondition:
   extends: RoleText
-  y: 945
-  font: Helvetica Neue,Helvetica,Sans normal 32
-  font_size: 32
+  y: 960
+  font: HelveticaNeue Light 12
+  font_size: 12
 
 EventText:
   extends: AllText
-  font_size: 27
-  font: Helvetica Neue,Helvetica,Sans normal 27
+  font_size: 10
+  font: HelveticaNeue Light 10
   ellipsize: false
   color: '#FFFFFF'
 
@@ -258,8 +258,8 @@ EventLogoPaper:
 EventImpactTitle:
   extends: EventText
   y: 410
-  font: Helvetica Neue,Helvetica,Sans bold 45
-  font_size: 45
+  font: HelveticaNeue Normal 14
+  font_size: 14
   ellipsize: false
 
 EventImpactSubtitle:
@@ -286,14 +286,14 @@ EventMediaTitle:
   extends: EventText
   color: '#000000'
   y: 485
-  font: Helvetica Neue,Helvetica,Sans bold 45
-  font_size: 45
+  font: HelveticaNeue Normal 14
+  font_size: 14
   ellipsize: false
 
 EventMediaSubtitle:
   extends: EventText
-  font: Helvetica Neue,Helvetica,Sans bold 27
-  font_size: 27
+  font: HelveticaNeue Normal 9
+  font_size: 9
   y: 540
 
 EventMediaDescription:
@@ -314,25 +314,25 @@ EventEffectText:
 EventCrisisTitle:
   extends: EventText
   y: 300
-  font: Helvetica Neue,Helvetica,Sans bold 54
-  font_size: 54
+  font: HelveticaNeue Normal 15
+  font_size: 15
 
 EventCrisisDescription:
   extends: EventText
-  y: 525
+  y: 550
 
 ToolCategory:
   extends: AllText
-  font: Helvetica Neue,Helvetica,Sans bold 54
-  font_size: 54
+  font: HelveticaNeue Normal 18
+  font_size: 18
   color: '#FFFFFF'
-  y: 118
+  y: 100
 
 ToolDescription:
   extends: AllText
   y: 225
-  font: Helvetica Neue,Helvetica,Sans normal 27
-  font_size: 27
+  font: HelveticaNeue Thin 10
+  font_size: 10
   ellipsize: false
 
 ToolImpactIcon:

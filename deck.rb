@@ -16,7 +16,7 @@ Squib::Deck.new(cards: 1, width: 825, height: 1125, layout: 'layout.yml') do
   text str: "Todo list", layout: 'TodoTitle'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck1'
   text str: "1 Take a data tile", layout: 'Todo1'
-  text str: "no peeking!", layout: 'TodoSub1'
+  text str: "from the bag", layout: 'TodoSub1'
   svg file: "components/ToolCards_Icons/Todo_Checkbox.svg", layout: 'TodoCheck2'
   text str: "2 Build tools", layout: 'Todo2'
   text str: "lay data tiles and negotiate!", layout: 'TodoSub2'
