@@ -321,6 +321,13 @@ EventCrisisDescription:
   extends: EventText
   y: 550
 
+ToolNumber:
+  extends: AllText
+  font: HelveticaNeue Normal 18
+  font_size: 12
+  color: '#FFFFFF'
+  y: 50
+
 ToolCategory:
   extends: AllText
   font: HelveticaNeue Normal 18

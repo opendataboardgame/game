@@ -142,7 +142,6 @@ Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
 
   type = {}
   tools['type'].each_with_index{ |t,i| (type[t] ||= []) << i}
-
   social = []
   environmental = []
   economic = []
@@ -156,8 +155,10 @@ Squib::Deck.new(cards: 63, width: 825, height: 1125, layout: 'layout.yml') do
   end
 
   png file: "components/Card_Backgrounds/ToolRecipe_Front_BG.png", layout: 'Background'
-
   # png file: "templates/pokercard-portrait.png"
+
+  # Add tool receipe IDs to the top of cards, useful for online joint play. 
+  # text str: tools['recipe id'], layout: 'ToolNumber'
 
   text str: tools['category'], layout: 'ToolCategory'
   text str: tools['description'], layout: 'ToolDescription'
